@@ -7,7 +7,7 @@ Project blueprint is a GitHub repository template for all [Fintech Open Source F
 
 ## Using DCO to sign your commits
 
-All commits must be signed with a DCO signature to avoid being flagged by the DCO Bot. This means that your commit log message must contain a line that looks like the following one, with your actual name and email address:
+All commits into DevOps Mutualization must be signed with a DCO signature to avoid being flagged by the DCO Bot. This means that your commit log message must contain a line that looks like the following one, with your actual name and email address:
 
 ```
 Signed-off-by: John Doe <john.doe@example.com>
