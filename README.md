@@ -2,11 +2,16 @@
 
 # DevOps Mutualization
 
-Project blueprint is a GitHub repository template for all [Fintech Open Source Foundation (FINOS)](https://www.finos.org/) hosted GitHub repositories, contributed and maintained by FINOS as part of the [Open Developer Platform (ODP)](https://odp.finos.org) initiative.
+## What is DevOps Mutualization?
+DevOps Mutualization aims to solve common engineering problems by providing a continuous compliance and assurance approach to DevOps that mutually benefits banks, auditors and regulators whilst accelerating DevOps adoption in engineering and fintech IT departments.
 
+## What is the initial objective of DevOps Mutualization?
+To initially unite SMEs from across FINOS members including Engineering, IT, Compliance, Security, Audit, etc. to identify 2-3 specific areas/projects where collaborative, open source, development could improve DevOps for FINOS members.
+
+## How to contribute to DevOps Mutualization 
+Add your DevOps problems, or the opportunities you see in this area, to the [DevOps Mutualization GitHub Issues](https://github.com/finos-labs/devops-mutualization/issues) or by emailing james.mcleod@finos.org 
 
 ## Using DCO to sign your commits
-
 All commits into DevOps Mutualization must be signed with a DCO signature to avoid being flagged by the DCO Bot. This means that your commit log message must contain a line that looks like the following one, with your actual name and email address:
 
 ```
@@ -20,29 +25,7 @@ Adding the `-s` flag to your `git commit` will add that line automatically. You 
 - [Signing commits
 ](https://docs.github.com/en/github/authenticating-to-github/signing-commits)
 
-
-## How to use this blueprint
-
-1. Clone this repository locally (`git clone https://github.com/finos-labs/project-blueprint.git`)
-2. Copy the `LICENSE`, `LICENSE.spdx`, and `NOTICE` files, as well as the entire `.github` directory, to your own repository (do _not_ copy this `README.md` file).
-3. Copy the `README.template.md` file to your repository, and rename it to `README.md`.
-4. Search and replace the following tokens in the newly copied files:
-
-  | Token                        | Replace with                                                      |
-  | ---------------------------- | ----------------------------------------------------------------- |
-  | `{project name}`             | The name of the GitHub repository the project resides in.         |
-  | `{yyyy}`                     | The year you started working on the code.                         |
-  | `{current_year}`             | The current year.                                                 |
-  | `{name of copyright owner}`  | The copyright owner of the code (typically you or your employer). |
-  | `{email of copyright owner}` | The email address of the copyright owner of the code (if known).  |
-
-5. Open the `NOTICE` file in a text editor and either remove the `{Other notices, as necessary}` token, or [add attributions if required by your code's dependencies](https://finosfoundation.atlassian.net/wiki/spaces/FINOS/pages/75530255/License+Categories).
-6. Open the `README.md` file in a text editor and complete the content as appropriate for your project.
-7. Add the [Apache license header to all of your source files](https://www.apache.org/licenses/LICENSE-2.0.html#apply).
-8. Commit all of your changes.
-
 ## License
-
 Copyright 2020 Fintech Open Source Foundation
 
 Distributed under the [Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0).
