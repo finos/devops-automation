@@ -4,7 +4,7 @@ about: To track DevOps Mutualization meeting agenda and attendance
 ---
 
 ## Date
-_<day-of-week>_ DD MMM yyyy - _<time>_ EST / _<time>_ UK
+_day-of-week_ DD MMM yyyy - _time_ EST / _time_ UK
 
 ## Untracked attendees
 | Name | Firm | Comment |
@@ -29,9 +29,9 @@ _<day-of-week>_ DD MMM yyyy - _<time>_ EST / _<time>_ UK
 
 ### WebEx info
 **Webex:** 
-_<webex-link>_
+_webex-link_
 
 **Dial-in**
 **US** +1-415-655-0003 US Toll
 **UK** +44-20319-88141 UK Toll
-**Access code:** _<webex-access-code>_
+**Access code:** _webex-access-code_
