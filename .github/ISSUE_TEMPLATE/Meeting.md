@@ -29,9 +29,9 @@ _day-of-week_ DD MMM yyyy - _time_ EST / _time_ UK
 
 ### WebEx info
 **Webex:** 
-_webex-link_
+- _webex-link_
 
-**Dial-in**
-**US** +1-415-655-0003 US Toll
-**UK** +44-20319-88141 UK Toll
-**Access code:** _webex-access-code_
+### Dial-in
+- **US** +1-415-655-0003 US Toll
+- **UK** +44-20319-88141 UK Toll
+- **Access code:** _webex-access-code_
