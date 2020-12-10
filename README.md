@@ -11,6 +11,9 @@ To initially unite SMEs from across FINOS members including Engineering, IT, Com
 ## How to contribute to DevOps Mutualization 
 Add your DevOps problems, or the opportunities you see in this area, to the [DevOps Mutualization GitHub Issues](https://github.com/finos-labs/devops-mutualization/issues). 
 
+## Mailing List
+Subscribe to the DevOps Mutualization mailing list by sending an email to devops-mutualization+subscribe@finos.org.
+
 ## License
 Copyright 2020 Fintech Open Source Foundation
 
