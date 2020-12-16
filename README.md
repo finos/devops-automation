@@ -8,7 +8,7 @@
 DevOps Mutualization aims to solve common engineering problems by providing a continuous compliance and assurance approach to DevOps that mutually benefits banks, auditors and regulators whilst accelerating DevOps adoption in engineering and fintech IT departments.
 
 ## What are the objectives of DevOps Mutualization?
-To initially unite SMEs from across FINOS members including Engineering, IT, Compliance, Security, Audit, etc. 
+To unite SMEs from across FINOS members including Engineering, IT, Compliance, Security, Audit, etc. 
 
 Based on 2020 SIG banking member feedback, we have identified two themes that we'll be accelerating in 2021.  
 
