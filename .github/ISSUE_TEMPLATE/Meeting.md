@@ -22,6 +22,7 @@ _day-of-week_ DD MMM yyyy - _time_ EST / _time_ UK
 ## Agenda
 
 - [ ] Convene, roll call, welcome new people
+- [ ] Display [FINOS Antitrust Policy summary slide](https://github.com/finos/community/blob/master/governance/Compliance-Slides/Antitrust-Compliance-Slide.pdf) 
 - [ ] Approve previous meeting minutes
 - [ ] _Add Items Here_
 - [ ] AOB, Q&A & Adjourn (5mins)
