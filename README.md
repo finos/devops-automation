@@ -17,6 +17,8 @@ To unite SMEs from across FINOS members including Engineering, IT, Compliance, S
 Add your DevOps problems, or the opportunities you see in this area, to the [DevOps Mutualization GitHub Issues](https://github.com/finos-labs/devops-mutualization/issues). 
 
 ## Mailing List
+All SIG related communications are conducted through the devops-mutualization@finos.org mailing list. Email devops-mutualization@finos.org with questions or suggestions for collaboration use cases. 
+
 Subscribe to the DevOps Mutualization mailing list by sending an email to devops-mutualization+subscribe@finos.org.
 
 ## License
