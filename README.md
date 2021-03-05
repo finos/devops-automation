@@ -1,6 +1,6 @@
-<img align="right" width="40%" src="https://www.finos.org/hubfs/FINOS/finos-logo/FINOS_Icon_Wordmark_Name_RGB_horizontal.png">
+<img src="https://github.com/finos/branding/blob/master/sig-logos/devops-mutualization-sig/Horizontal/2020_DevOpsMutualization_Horizontal.svg" width="400">
 
-# DevOps Mutualization
+# DevOps Mutualization Special Interest Group
 
 ## What is DevOps Mutualization?
 DevOps Mutualization aims to solve common engineering problems by providing a continuous compliance and assurance approach to DevOps that mutually benefits banks, auditors and regulators whilst accelerating DevOps adoption in engineering and fintech IT departments.
@@ -17,6 +17,8 @@ To unite SMEs from across FINOS members including Engineering, IT, Compliance, S
 Add your DevOps problems, or the opportunities you see in this area, to the [DevOps Mutualization GitHub Issues](https://github.com/finos-labs/devops-mutualization/issues). 
 
 ## Mailing List
+All SIG related communications are conducted through the devops-mutualization@finos.org mailing list. Email devops-mutualization@finos.org with questions or suggestions for collaboration use cases. 
+
 Subscribe to the DevOps Mutualization mailing list by sending an email to devops-mutualization+subscribe@finos.org.
 
 ## License
