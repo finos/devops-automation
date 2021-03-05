@@ -1,6 +1,6 @@
-<img align="right" width="40%" src="https://www.finos.org/hubfs/FINOS/finos-logo/FINOS_Icon_Wordmark_Name_RGB_horizontal.png">
+<img src="https://github.com/finos/branding/blob/master/sig-logos/devops-mutualization-sig/Horizontal/2020_DevOpsMutualization_Horizontal.svg" width="400">
 
-# DevOps Mutualization
+# FINOS DevOps Mutualization Special Interest Group
 
 ## What is DevOps Mutualization?
 DevOps Mutualization aims to solve common engineering problems by providing a continuous compliance and assurance approach to DevOps that mutually benefits banks, auditors and regulators whilst accelerating DevOps adoption in engineering and fintech IT departments.
