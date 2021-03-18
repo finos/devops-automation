@@ -1,6 +1,6 @@
 ## DevOps Mutualization SIG Discussions
 
-The DevOps Mutualization SIG uses [Github Team Discussions](https://odp.finos.org/docs/project-collaboration#github-team-discussions) 
+The DevOps Mutualization SIG uses [GitHub Team Discussions](https://odp.finos.org/docs/project-collaboration#github-team-discussions) 
 that are only visible to members of the [FINOS GitHub Organisation](https://github.com/orgs/finos/people), with optional `private` discussions available to those who are part of the [devops-mutualization-participants](https://github.com/orgs/finos/teams/devops-mutualization-participants/) team.
 
 GitHub Team Discussions augment the use of [GitHub Issues](https://odp.finos.org/docs/project-collaboration#issues) in this repository by allowing both `public` and `private` discussions as part of the FINOS GitHub Organisation. 
