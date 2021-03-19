@@ -23,9 +23,9 @@ Subscribe to the DevOps Mutualization mailing list by sending an email to devops
 
 ## DevOps Mutualization SIG Discussions
 
-DevOps Mutualization uses [GitHub Team Discussions](https://odp.finos.org/docs/project-collaboration#github-team-discussions) for SIG wide discussions that are only visible to members of the [FINOS GitHub Organisation](https://github.com/orgs/finos/people), with optional `private` discussions available to those who are part of the [devops-mutualization-participants](https://github.com/orgs/finos/teams/devops-mutualization-participants/) team.
+DevOps Mutualization uses [GitHub Team Discussions](https://odp.finos.org/docs/project-collaboration#github-team-discussions) for SIG wide discussions that are only visible to members of the [FINOS GitHub Organisation](https://github.com/orgs/finos/people), with optional `private` discussions available to those who are part of the [devops-mutualization-participants](https://github.com/orgs/finos/teams/devops-mutualization-participants/) team. 
 
-Find out [how to join DevOps Mutualization SIG Discussions](https://github.com/finos/devops-mutualization/blob/master/docs/Discussions.md).
+Find out [How to Join DevOps Mutualization SIG Discussions](https://github.com/finos/devops-mutualization/blob/master/docs/Discussions.md) or continue to the [devops-mutualization-participants](https://github.com/orgs/finos/teams/devops-mutualization-participants/) team if you are already a FINOS GitHub Organisation member.
 
 ## License
 Copyright 2020 Fintech Open Source Foundation
