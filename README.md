@@ -21,7 +21,7 @@ All SIG related communications are conducted through the devops-mutualization@fi
 
 Subscribe to the DevOps Mutualization mailing list by sending an email to devops-mutualization+subscribe@finos.org.
 
-## Open Roles - DevOps Mutualization
+## DevOps Mutualization Open Team Roles
 
 DevOps Mutualization needs your help to run the FINOS Special Interest Group.
 
