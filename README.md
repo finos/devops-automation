@@ -23,7 +23,9 @@ Subscribe to the DevOps Mutualization mailing list by sending an email to devops
 
 ## DevOps Mutualization Open Team Roles
 
-DevOps Mutualization needs your help to run the FINOS Special Interest Group. The following is a list of the [Open DevOps Mutualization Roles](docs/open-roles).
+DevOps Mutualization needs your help to run the FINOS Special Interest Group.
+
+The following is a list of the [Open DevOps Mutualization Roles](docs/open-roles).
 
 * [Project Operations Manager - DevOps Mutualization](docs/open-roles/project-operations-manager.md)
 
