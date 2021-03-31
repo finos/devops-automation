@@ -1,12 +1,11 @@
-# Open Roles - Cloud Service Certification
+# Open Roles - DevOps Mutualization
 
-The following is a list of the open Cloud Service Certification roles.
+The following is a list of the open DevOps Mutualization roles.
 
-* [CSC Project Maintainer - Cloud Service Certification](cloud-service-certification-project-maintainer.md)
-* [Project Operations Manager - Cloud Service Certification](project-operations-manager.md)
+* [Project Operations Manager - DevOps Mutualization](project-operations-manager.md)
 
-## Contact Cloud Service Certification
+## Contact DevOps Mutualization
 
-Contact [James McLeod](james@finos.org), FINOS Director of Community, or  [Peter Thomas](peter.thomas@db.com), Cloud Service Certification Lead Maintainer from Deutsche Bank, for more information or drop into the next [Cloud Service Certification Project Meeting](https://github.com/finos/cloud-service-certification/issues?q=label%3Ameeting+) to say hello.
+Contact [James McLeod](james@finos.org), FINOS Director of Community, or [Amol Shukla](amol.shukla@morganstanley.com) and [Anders Wallgren](awallgren@cloudbees.com) for more information or drop into the next [DevOps Mutualization SIG Meeting](https://github.com/finos/devops-mutualization/issues?q=label%3Ameeting+) to say hello.
 
 🌤 🚀 🤖
