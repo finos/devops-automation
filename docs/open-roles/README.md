@@ -6,6 +6,6 @@ The following is a list of the open DevOps Mutualization roles.
 
 ## Contact DevOps Mutualization
 
-Contact [James McLeod](james@finos.org), FINOS Director of Community, or [Amol Shukla](amol.shukla@morganstanley.com) and [Anders Wallgren](awallgren@cloudbees.com) for more information or drop into the next [DevOps Mutualization SIG Meeting](https://github.com/finos/devops-mutualization/issues?q=label%3Ameeting+) to say hello.
+Contact [James McLeod](james@finos.org), FINOS Director of Community, or [Amol Shukla](amol.shukla@morganstanley.com), Morgan Stanley Executive Director and [Anders Wallgren](awallgren@cloudbees.com), CloudBees Vice President of Technology Strategy, for more information or drop into the next [DevOps Mutualization SIG Meeting](https://github.com/finos/devops-mutualization/issues?q=label%3Ameeting+) to say hello.
 
 🌤 🚀 🤖
