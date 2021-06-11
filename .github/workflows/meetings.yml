@@ -73,7 +73,7 @@ jobs:
       run: |
         if [ -f "metadata-tool/github-finos-meetings-unknowns.txt" ]; then
           UNKNOWNS=`cat metadata-tool/github-finos-meetings-unknowns.txt`
-          ISSUE_CONTENT="Couldn't find the following GitHub usernames on file: ${UNKNOWNS} . /CC @aitana16 @maoo @mcleo-d"
+          ISSUE_CONTENT="Couldn't find the following GitHub usernames on file: ${UNKNOWNS} . /CC @agitana @maoo @mcleo-d"
           echo "UNKNOWNS_COMMENT=${ISSUE_CONTENT}" >> $GITHUB_ENV
           echo "Posting message as comment: ${UNKNOWNS_COMMENT}"
         fi
