@@ -24,6 +24,7 @@ _day-of-week_ DD MMM yyyy - _time_ EST / _time_ UK
 - [ ] Convene, roll call, welcome new people
 - [ ] Display [FINOS Antitrust Policy summary slide](https://github.com/finos/community/blob/master/governance/Compliance-Slides/Antitrust-Compliance-Slide.pdf) 
 - [ ] Approve previous meeting minutes
+- [ ] Review DevOps SIG [project board](https://github.com/orgs/finos/projects/33) 
 - [ ] _Add Items Here_
 - [ ] AOB, Q&A & Adjourn (5mins)
 
@@ -47,5 +48,7 @@ https://finos.webex.com/finos/j.php?MTID=md62056638ba05fbea86b9582df94f807
 - **Access code:** 127 662 6070
 
 **Github Repo:** https://github.com/finos/devops-mutualization/
+
+**Project Board:** https://github.com/orgs/finos/projects/33
 
 **Mailing List:** Email devops-mutualization+subscribe@finos.org to subscribe to our mailing list
