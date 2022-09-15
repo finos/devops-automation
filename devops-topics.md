@@ -1,8 +1,8 @@
-#DevOps Mutualization Topics
+# DevOps Mutualization Topics
 
 *This is just a sample, to show how we might structure the topics list*
 
-##Overview
+## Overview
 
 This document presents DevOps topics for discussion by the DevOps 
 
@@ -12,9 +12,9 @@ There are several types of topics:
 
 ![DevOps Infinity Loop](https://storage.googleapis.com/prd-engineering-asset/2020/12/7ceaca3e-screen-shot-2020-11-30-at-14.42.11.png)
 
-##General Topics
+## General Topics
 
-###Culture
+### Culture
 
 - Community
 
@@ -24,23 +24,23 @@ There are several types of topics:
 
 - Customer Engagement
 
-###Toolchain
+### Toolchain
 
 Sub Topics here
 
--Tooling Choices and Tradeoffs
+- Tooling Choices and Tradeoffs
 
--Integrtion Patterns
+- Integrtion Patterns
 
-###Continuous Integration
-
-Sub Topics here
-
-###Continuous Delivery
+### Continuous Integration
 
 Sub Topics here
 
-###Microservices
+### Continuous Delivery
+
+Sub Topics here
+
+### Microservices
 
 Sub Topics here
 
@@ -48,80 +48,80 @@ Sub Topics here
 
 Sub Topics here
 
-###Monitoring and Logging
+### Monitoring and Logging
 
 Sub Topics here
 
-###Metrics
+### Metrics
 
--DORA
+- DORA
 
--Collection
+- Collection
 
--Kaizen / Continous Improvement
+- Kaizen / Continous Improvement
 
--KPIs
+- KPIs
 
-##SRE
+## SRE
 
 Sub Topics here
 
 
-##Topics by DevOps phase
+## Topics by DevOps phase
 
-###Plan
+### Plan
 
--Issue Management
+- Issue Management
 
--Agile Practices
+- Agile Practices
 
--- Sprint Planning
+- Sprint Planning
 
---Customer Engagement
+- Customer Engagement
 
---MVP and Iterating
+- MVP and Iterating
 
-###Code
+### Code
 
--Repositories
+- Repositories
 
--Branching Strategis
+- Branching Strategis
 
 Definition here
 
-###Build
+### Build
 
 Sub Topics here
 
-###Test
+### Test
 
 Sub Topics here
 
--Test Automation Approaches
+- Test Automation Approaches
 
--Tooling Choices
+- Tooling Choices
 
--Unit Testing
+- Unit Testing
 
--Integration Testing
+- Integration Testing
 
 - Acceptance testing and BDD
 
--Regression Testing
+- Regression Testing
 
-###Release
-
-Sub Topics here
-
-##Deploy
+### Release
 
 Sub Topics here
 
-##Operate
+## Deploy
 
 Sub Topics here
 
-##Monitor
+## Operate
+
+Sub Topics here
+
+## Monitor
 
 Sub Topics here
 
