@@ -4,11 +4,12 @@
 
 This document has been created to gather notes regarding the 'Glue' and 'Self-Service Workflow Automation' that banking teams have produced to ensure proper controls are created and laid down to deliver software whilst adhering to internal banking policy.
 
-This document can also include the existence of internal registry integrations where projects and namespaces have a known lifecycle and association with systems, CIDB, etc. 
+This document can also include the existence of internal registry integrations where projects and namespaces have a known lifecycle and association with systems, CIDB, etc.
 
 Individual tools that are selected, automated, and orchestrated will constantly change, but the integrations between these tools and internal systems could be an interesting problem to collaborate on, or at the very least, share approaches and learnings, etc.
 
-## DevOps Mutualization Meeting Notes
+## DevOps Automation Meeting Notes
+
 Date and Time : Thursday 30th July @ 1pm ET / 6pm BST - https://github.com/finos/community/issues/52#issuecomment-669343645
 
 - _Orchestration tools have been created but gluing them together is the interesting part. Tools out of the box also don't give metrics, so they need to be glued together to obtain._
@@ -28,11 +29,13 @@ Date and Time : Thursday 30th July @ 1pm ET / 6pm BST - https://github.com/finos
 - _The group would like to answer the question of where we've been forced to build bespoke DevOps orchestration solutions and therefore duplicating effort._
 
 ## Suggestion
+
 We can start by mapping the various automation tools and their main categories. For example Infrastructure as code, configuration management, Container Management (Kubernetes) and than we can describe how a potential integration between those tools may look like.
 
 ## DevOps Tool Mapping Table
 
 ### Resource Type Table
+
 Describes the type of DevOps resource to be categorised.
 | Resource Type | _Description_ |
 |:----|:----|
@@ -41,52 +44,50 @@ Describes the type of DevOps resource to be categorised.
 | Container Management (Kubernetes) | _Description Here_ |
 
 ### Resource Table
+
 Describes the resource being utilised in banking DevOps teams.
 | Resource | _Description_ | Resource Type |
 |:----|:----|:----|
-| Name Example | _Description Example_  | Infrastructure as Code |
-| Name Example | _Description Example_  | Configuration Management |
-| Name Example | _Description Example_  | Container Management (Kubernetes) |
+| Name Example | _Description Example_ | Infrastructure as Code |
+| Name Example | _Description Example_ | Configuration Management |
+| Name Example | _Description Example_ | Container Management (Kubernetes) |
 
 ### Resource Integration Mapping Table
-Describes resource integration, the direction of integration and how the resources are being integrated.
-| Resource Primary | Resource Secondary | Integration Direction_ | _Integration Description_ |
-|:----|:----|:----|:----|
-| Resource Name | Resource Name  | _Integration Direction Example_ | _Integration Description Example_ |
 
-## DevOps Mutualization Meeting Minutes
+Describes resource integration, the direction of integration and how the resources are being integrated.
+| Resource Primary | Resource Secondary | Integration Direction* | \_Integration Description* |
+|:----|:----|:----|:----|
+| Resource Name | Resource Name | _Integration Direction Example_ | _Integration Description Example_ |
+
+## DevOps Automation Meeting Minutes
+
 **Date and Time** : Thursday 24th September @ 12:30pm ET / 5:30pm BST
 
 - **How is infrastructure provisioned against the SDLC?**
   - Infrastructure and code deployment happening through SDLC.
   - Terraform and other such technologies like Bit Bucket being engaged.
-- **How does a developer run a security scan before merge?** 
+- **How does a developer run a security scan before merge?**
   - This happens prior to pull request merge.
   - Developers can trigger from IDEs using SonarCube, Black Duck and others
-  - Build time is a factor for being able to run security tests in realtime. Software should build fast to enable.  
-  - Dependencies are a particular problem as you can pull in multiple dependencies from external sources. 
+  - Build time is a factor for being able to run security tests in realtime. Software should build fast to enable.
+  - Dependencies are a particular problem as you can pull in multiple dependencies from external sources.
     - How is this reflected in build tickets and evidence stores?
   - Getting a complete view of dependencies is ideal end state depending on the tech stack.
   - Dependency information is obtained according to the build tools.
   - Xray is used depending on the tech stack.
   - Docker images are also scanned.
   - Dependency information is also known within C++ tech stacks.
-- **Shifting left on engineering gates was a subject matter of interest that was raised by the group.** 
-- **The following items were highlighted as areas of interest for future deep dives** 
+- **Shifting left on engineering gates was a subject matter of interest that was raised by the group.**
+- **The following items were highlighted as areas of interest for future deep dives**
   - **SDLC/CIM**
   - **Group Specific Controls / Gates**
   - **Self Service Portal**
   - **Metrics - Collection and Reporting**
-- **Evidence store within the SDLC toolchain was selected as the deep dive by the group** 
-- **When is performance testing done?** 
+- **Evidence store within the SDLC toolchain was selected as the deep dive by the group**
+- **When is performance testing done?**
   - Project owners define the test criteria
-  - The tooling defines that criteria
-  - The testing is done as part of the release pipeline and is collected as evidence
+      - The tooling defines that criteria
+      - The testing is done as part of the release pipeline and is collected as evidence
 - **Defining what should go into an evidence store manifest will be a good aspect for mutualization**
-- **Self service portal and DevOps tools wrappers** 
+- **Self service portal and DevOps tools wrappers**
   - Is there was a terraform script for all the tools, it would be great to standardise on that.
-
-
-
-
-
