@@ -1,4 +1,4 @@
-<img src="https://github.com/mcleo-d/branding/raw/master/sig-logos/devops-automation-sig/Wordmark-with-Icon/2022_DevOpsAutomation.svg" width="400">
+<img src="https://github.com/finos/branding/raw/master/sig-logos/devops-automation-sig/Wordmark-with-Icon/2022_DevOpsAutomation.svg" width="400">
 
 # DevOps Automation Special Interest Group
 
