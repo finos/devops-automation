@@ -1,7 +1,9 @@
 ## Evidence Lake
+
 This document has been created to capture and iterate the compliance evidence required by banking and fintech DevOps teams.
 
-## DevOps Mutualization Meeting Notes
+## DevOps Automation Meeting Notes
+
 Date and Time : Thursday 30th July @ 1pm ET / 6pm BST - https://github.com/finos/community/issues/52#issuecomment-669343645
 
 - _Software Supply Chain with Grafeas and Kritis introduced was shown via a slide._
@@ -47,4 +49,4 @@ Date and Time : Thursday 30th July @ 1pm ET / 6pm BST - https://github.com/finos
 
 ## Grafeas and Kritis Reference Materials
 
-[Grafeas](https://grafeas.io) provides the metadata store with [Kritis](https://github.com/grafeas/kritis) performing the enforcement of the metadata at deploy time into Kubernetes.  For more details see the InfoQ [presentation and slides](https://www.infoq.com/presentations/supply-grafeas-kritis/). These are used within the [GCP Binary Authorisation process](https://cloud.google.com/binary-authorization/docs/overview).  An alternative (which looks similar at first glance) is [Open Policy Agent](https://www.openpolicyagent.org).
+[Grafeas](https://grafeas.io) provides the metadata store with [Kritis](https://github.com/grafeas/kritis) performing the enforcement of the metadata at deploy time into Kubernetes. For more details see the InfoQ [presentation and slides](https://www.infoq.com/presentations/supply-grafeas-kritis/). These are used within the [GCP Binary Authorisation process](https://cloud.google.com/binary-authorization/docs/overview). An alternative (which looks similar at first glance) is [Open Policy Agent](https://www.openpolicyagent.org).

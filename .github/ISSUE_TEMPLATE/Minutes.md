@@ -1,21 +1,23 @@
 ---
-name: DevOps Mutualization SIG Meeting Minutes
-about: To record the discussion of DevOps Mutualization meetings
+name: DevOps Automation SIG Meeting Minutes
+about: To record the discussion of DevOps Automation meetings
 ---
 
 ## Date
+
 _day-of-week_ DD MMM yyyy - _time_ EST / _time_ UK
 
 ## Meeting Agenda
+
 Plesae see the [MMM YYYY Meeting Agenda](https://github.com/finos/devops-mutualization/blob/master/.github/ISSUE_TEMPLATE/Meeting.md)
 
+## Topics Discussed
 
-## Topics Discussed 
 - [ ] topic 1
 - [ ] topic 2
 - [ ] ...
 
-*Do not include FINOS administrative topics such as roll call, antitrust, approval of minutes, etc.*
+_Do not include FINOS administrative topics such as roll call, antitrust, approval of minutes, etc._
 
 ## Meeting Minutes
 
