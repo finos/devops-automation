@@ -4,10 +4,19 @@ Our community meetings will follow a Lean Coffee pattern.
 Because of potential tool restrictions across our community of organizations, we will use Github for all collaboration.
 Over time, we will provide updates detailing community activity at each meeting of the FINOS SIG (see [here](https://github.com/finos/devops-automation/issues) for meeting announcements).
 
+## Meeting Announcements
+
+Announcements for workstream meetings will be made as issues on the [github issue tracker](https://github.com/finos/devops-automation/issues).
+We will follow the same conventions used for the FINOS DevOps Automation SIG meetings.
+
 ## Meeting Cadence
 
 To start, we will hold meetings every two weeks, starting the week of Feb 27, 2023.
 Based on community input, we will seek to evolve the meeting cadence to maximize participation within the group as well as with other FINOS workstreams.
+
+## Meeting Notes
+
+Meeting notes will be added as comments to the meeting announcement.
 
 ## Meeting Agenda
 
