@@ -54,7 +54,7 @@ https://finos.webex.com/finos/j.php?MTID=md62056638ba05fbea86b9582df94f807
 - **UK** +44-20319-88141 UK Toll
 - **Access code:** 127 662 6070
 
-**Github Repo:** https://github.com/finos/devops-mutualization/
+**Github Repo:** https://github.com/finos/devops-automation/
 
 **Project Board:** https://github.com/orgs/finos/projects/33
 
