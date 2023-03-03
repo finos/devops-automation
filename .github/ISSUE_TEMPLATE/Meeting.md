@@ -43,16 +43,13 @@ _day-of-week_ DD MMM yyyy - _time_ EST / _time_ UK
 - [ ] Action 2
 - [ ] ...
 
-### WebEx info
+### Zoom info
 
-**Webex:**
-https://finos.webex.com/finos/j.php?MTID=md62056638ba05fbea86b9582df94f807
-
-### Dial-in
-
-- **US** +1-415-655-0003 US Toll
-- **UK** +44-20319-88141 UK Toll
-- **Access code:** 127 662 6070
+**Join Zoom Meeting**
+- https://zoom.us/j/99355753984?pwd=c1RxLzNWN0dWck1aeTlQRUxrN0ZBdz09
+- Meeting ID: 993 5575 3984
+- Passcode: 991230
+- Find your local number: https://zoom.us/u/aesEqmNODb
 
 **Github Repo:** https://github.com/finos/devops-automation/
 
