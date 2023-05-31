@@ -1,4 +1,4 @@
-# OSS Supply Chain Workgroup engagement model
+# OSS Supply Chain Working Group engagement model
 
 Our community meetings will follow a Lean Coffee pattern.
 Because of potential tool restrictions across our community of organizations, we will use Github for all collaboration.
@@ -6,7 +6,7 @@ Over time, we will provide updates detailing community activity at each meeting 
 
 ## Meeting Announcements
 
-Announcements for workstream meetings will be made as issues on the [github issue tracker](https://github.com/finos/devops-automation/issues).
+Announcements for working group meetings will be made as issues on the [github issue tracker](https://github.com/finos/devops-automation/issues).
 We will follow the same conventions used for the FINOS DevOps Automation SIG meetings.
 
 ## Meeting Cadence
