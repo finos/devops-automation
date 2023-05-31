@@ -1,4 +1,4 @@
-# Backstage workstream engagement model
+# OSS Supply Chain workstream engagement model
 
 Our community meetings will follow a Lean Coffee pattern.
 Because of potential tool restrictions across our community of organizations, we will use Github for all collaboration.
