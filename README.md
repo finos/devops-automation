@@ -4,38 +4,32 @@
 
 ## What is DevOps Automation?
 
-DevOps Automation aims to solve common engineering problems by providing a continuous compliance and assurance approach to DevOps that mutually benefits banks, auditors and regulators whilst accelerating DevOps adoption in engineering and fintech IT departments.
+FINOS DevOps Automation Special Interest Group aims to solve common engineering problems by providing a continuous compliance and assurance approach to DevOps that mutually benefits banks, auditors and regulators whilst accelerating DevOps adoption in engineering and FinTech IT departments.
 
 ## What are the objectives of DevOps Automation?
 
-To unite SMEs from across FINOS members including Engineering, IT, Compliance, Security, Audit, etc. Based on 2020 SIG banking member feedback, we have identified two themes that we'll be accelerating in 2021.
+To unite SMEs from across FINOS members to help solve the industries challenges as they relate to continuous automation and the related audit and regulatory compliance. Often seen as an inhibitor of productivity, we see automation of our DevOps practices provides an opportunity to drive automated compliance that help facilitate reduced delivery timelines and increased productivity. The DevOps Automation SIG has formed a number of Working Groups which focus on innovating collaborative solutions to the benefit of all our members.
 
-1. How are banks orchestrating DevOps and the 'Glue' utilised to create existing self-service workflows?
-   - [GitHub Issue #2](https://github.com/finos/devops-mutualization/issues/2)
-2. Structuring conversations around SDLC and iterating the different types of evidence that needs to be produced
-   - [GitHub Issue #4](https://github.com/finos/devops-mutualization/issues/4)
+## How do we work?
 
-## How to contribute to DevOps Automation
+The DevOps Automation SIG has formed several Working Groups to focus on key themes for the financial industry. You can see details of the active working groups, how they operate and how you can get involved [here](docs/working-groups).
 
-Add your DevOps problems, or the opportunities you see in this area, to the [DevOps Automation GitHub Issues](https://github.com/finos-labs/devops-mutualization/issues).
+If you have a problem you would like the SIG to look at addressing, raise it as a [GitHub Issue](https://github.com/finos-labs/devops-mutualization/issues).
+
+If you would like to get involved in a specific working group, check out that working groups page to see how to contribute.
+
 
 ## Mailing List
 
-All SIG related communications are conducted through the devops-mutualization@finos.org mailing list. Email devops-mutualization@finos.org with questions or suggestions for collaboration use cases.
+All SIG related communications are conducted through the devops-automation@finos.org mailing list. Email devops-automation@finos.org with questions or suggestions for collaboration use cases.
 
-Subscribe to the DevOps Automation mailing list by sending an email to devops-mutualization+subscribe@finos.org.
+Subscribe to the DevOps Automation mailing list by sending an email to devops-automation+subscribe@finos.org?subject=Subscribe.
 
-## DevOps Automation Open Team Roles
+## SIG Discussions
 
-The DevOps Automation leadership team needs your help to run the FINOS Special Interest Group. The following are our [Open DevOps Automation SIG Team Roles](docs/open-roles) for those who'd like to get involved.
+DevOps Automation uses [GitHub Team Discussions](https://odp.finos.org/docs/project-collaboration#github-team-discussions) for SIG wide discussions that are only visible to members of the [FINOS GitHub Organisation](https://github.com/orgs/finos/people), with optional `private` discussions available to those who are part of the [devops-automation-participants](https://github.com/orgs/finos/teams/devops-automation-participants/) team.
 
-- [Project Operations Manager - DevOps Automation](docs/open-roles/project-operations-manager.md)
-
-## DevOps Automation SIG Discussions
-
-DevOps Automation uses [GitHub Team Discussions](https://odp.finos.org/docs/project-collaboration#github-team-discussions) for SIG wide discussions that are only visible to members of the [FINOS GitHub Organisation](https://github.com/orgs/finos/people), with optional `private` discussions available to those who are part of the [devops-mutualization-participants](https://github.com/orgs/finos/teams/devops-mutualization-participants/) team.
-
-Find out [How to Join DevOps Automation SIG Discussions](https://github.com/finos/devops-mutualization/blob/master/docs/Discussions.md) or continue to the [devops-mutualization-participants](https://github.com/orgs/finos/teams/devops-mutualization-participants/) team if you are already a FINOS GitHub Organisation member.
+Find out [How to Join DevOps Automation SIG Discussions](https://github.com/finos/devops-automation/blob/master/docs/Discussions.md) or continue to the [devops-automation-participants](https://github.com/orgs/finos/teams/devops-automation-participants/) team if you are already a FINOS GitHub Organisation member.
 
 ## License
 
