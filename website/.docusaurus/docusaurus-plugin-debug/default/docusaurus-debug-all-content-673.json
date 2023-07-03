@@ -1,0 +1,173 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "loadedVersions": [
+        {
+          "versionName": "current",
+          "label": "Next",
+          "banner": null,
+          "badge": false,
+          "noIndex": false,
+          "className": "docs-version-current",
+          "path": "/docs",
+          "tagsPath": "/docs/tags",
+          "editUrl": "https://github.com/finos/open-developer-platform/edit/master/website/../docs",
+          "editUrlLocalized": "https://github.com/finos/open-developer-platform/edit/master/website/i18n/en/docusaurus-plugin-content-docs/current",
+          "isLast": true,
+          "routePriority": -1,
+          "sidebarFilePath": "/Users/matthewbain/Development/github/devops-automation/website/sidebars.js",
+          "contentPath": "/Users/matthewbain/Development/github/devops-automation/docs",
+          "contentPathLocalized": "/Users/matthewbain/Development/github/devops-automation/website/i18n/en/docusaurus-plugin-content-docs/current",
+          "docs": [
+            {
+              "unversionedId": "about-finos",
+              "id": "about-finos",
+              "title": "About FINOS, the Fintech Open Source Foundation",
+              "description": "The Fintech Open Source Foundation (FINOS) is an independent 501(c)(6) nonprofit organization whose purpose is to accelerate collaboration and innovation in financial services through the adoption of open source software, standards and best practices.",
+              "source": "@site/../docs/about-finos.md",
+              "sourceDirName": ".",
+              "slug": "/about-finos",
+              "permalink": "/docs/about-finos",
+              "draft": false,
+              "editUrl": "https://github.com/finos/open-developer-platform/edit/master/website/../docs/about-finos.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "id": "about-finos",
+                "title": "About FINOS, the Fintech Open Source Foundation"
+              },
+              "sidebar": "mainSidebar",
+              "previous": {
+                "title": "roadmap",
+                "permalink": "/docs/roadmap"
+              }
+            },
+            {
+              "unversionedId": "home",
+              "id": "home",
+              "title": "Homepage",
+              "description": "Welcome to {project name} !",
+              "source": "@site/../docs/home.mdx",
+              "sourceDirName": ".",
+              "slug": "/home",
+              "permalink": "/docs/home",
+              "draft": false,
+              "editUrl": "https://github.com/finos/open-developer-platform/edit/master/website/../docs/home.mdx",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "id": "home",
+                "title": "Homepage"
+              },
+              "sidebar": "mainSidebar",
+              "next": {
+                "title": "team",
+                "permalink": "/docs/team"
+              }
+            },
+            {
+              "unversionedId": "roadmap",
+              "id": "roadmap",
+              "title": "roadmap",
+              "description": "---",
+              "source": "@site/../docs/roadmap.mdx",
+              "sourceDirName": ".",
+              "slug": "/roadmap",
+              "permalink": "/docs/roadmap",
+              "draft": false,
+              "editUrl": "https://github.com/finos/open-developer-platform/edit/master/website/../docs/roadmap.mdx",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "mainSidebar",
+              "previous": {
+                "title": "team",
+                "permalink": "/docs/team"
+              },
+              "next": {
+                "title": "About FINOS, the Fintech Open Source Foundation",
+                "permalink": "/docs/about-finos"
+              }
+            },
+            {
+              "unversionedId": "team",
+              "id": "team",
+              "title": "team",
+              "description": "---",
+              "source": "@site/../docs/team.mdx",
+              "sourceDirName": ".",
+              "slug": "/team",
+              "permalink": "/docs/team",
+              "draft": false,
+              "editUrl": "https://github.com/finos/open-developer-platform/edit/master/website/../docs/team.mdx",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "mainSidebar",
+              "previous": {
+                "title": "Homepage",
+                "permalink": "/docs/home"
+              },
+              "next": {
+                "title": "roadmap",
+                "permalink": "/docs/roadmap"
+              }
+            }
+          ],
+          "drafts": [],
+          "sidebars": {
+            "mainSidebar": [
+              {
+                "type": "category",
+                "label": "Main Menu",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "home"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "team"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "roadmap"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "about-finos"
+                  }
+                ],
+                "collapsed": true,
+                "collapsible": true
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "docusaurus-plugin-content-blog": {
+    "default": {
+      "blogSidebarTitle": "Recent posts",
+      "blogPosts": [],
+      "blogListPaginated": [],
+      "blogTags": {},
+      "blogTagsListPath": "/blog/tags",
+      "blogTagsPaginated": []
+    }
+  },
+  "docusaurus-plugin-content-pages": {
+    "default": [
+      {
+        "type": "jsx",
+        "permalink": "/",
+        "source": "@site/src/pages/index.js"
+      }
+    ]
+  },
+  "docusaurus-plugin-debug": {},
+  "docusaurus-theme-classic": {},
+  "docusaurus-bootstrap-plugin": {},
+  "docusaurus-mdx-fallback-plugin": {}
+}

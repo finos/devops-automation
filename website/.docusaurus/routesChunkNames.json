@@ -1,0 +1,75 @@
+{
+  "/__docusaurus/debug-160": {
+    "__comp": "__comp---theme-debug-config-23-a-2ff",
+    "__context": {
+      "plugin": "plugin---docusaurus-debug-8-cf-3f9"
+    }
+  },
+  "/__docusaurus/debug/config-f24": {
+    "__comp": "__comp---theme-debug-config-23-a-2ff",
+    "__context": {
+      "plugin": "plugin---docusaurus-debug-8-cf-3f9"
+    }
+  },
+  "/__docusaurus/debug/content-855": {
+    "__comp": "__comp---theme-debug-contentba-8-ce7",
+    "__context": {
+      "plugin": "plugin---docusaurus-debug-8-cf-3f9"
+    },
+    "allContent": "allContent---docusaurus-debug-content-246-9aa"
+  },
+  "/__docusaurus/debug/globalData-d29": {
+    "__comp": "__comp---theme-debug-global-dataede-0fa",
+    "__context": {
+      "plugin": "plugin---docusaurus-debug-8-cf-3f9"
+    }
+  },
+  "/__docusaurus/debug/metadata-d8b": {
+    "__comp": "__comp---theme-debug-site-metadata-68-e-3d4",
+    "__context": {
+      "plugin": "plugin---docusaurus-debug-8-cf-3f9"
+    }
+  },
+  "/__docusaurus/debug/registry-75c": {
+    "__comp": "__comp---theme-debug-registry-679-501",
+    "__context": {
+      "plugin": "plugin---docusaurus-debug-8-cf-3f9"
+    }
+  },
+  "/__docusaurus/debug/routes-0d2": {
+    "__comp": "__comp---theme-debug-routes-946-699",
+    "__context": {
+      "plugin": "plugin---docusaurus-debug-8-cf-3f9"
+    }
+  },
+  "/docs-de1": {
+    "__comp": "__comp---theme-doc-page-1-be-9be",
+    "__context": {
+      "plugin": "plugin---docs-04-b-6d0"
+    },
+    "versionMetadata": "versionMetadata---docs-935-398"
+  },
+  "/docs/about-finos-370": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-about-finos-0-c-9-6cd"
+  },
+  "/docs/home-0dd": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-homeecc-d7a"
+  },
+  "/docs/roadmap-b44": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-roadmapf-87-806"
+  },
+  "/docs/team-335": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-teamea-8-d87"
+  },
+  "/-2f2": {
+    "__comp": "__comp---site-src-pages-index-jsc-4-f-f99",
+    "__context": {
+      "plugin": "plugin---159-306"
+    },
+    "config": "config---5-e-9-4f3"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "unversionedId": "about-finos",
+  "id": "about-finos",
+  "title": "About FINOS, the Fintech Open Source Foundation",
+  "description": "The Fintech Open Source Foundation (FINOS) is an independent 501(c)(6) nonprofit organization whose purpose is to accelerate collaboration and innovation in financial services through the adoption of open source software, standards and best practices.",
+  "source": "@site/../docs/about-finos.md",
+  "sourceDirName": ".",
+  "slug": "/about-finos",
+  "permalink": "/docs/about-finos",
+  "draft": false,
+  "editUrl": "https://github.com/finos/open-developer-platform/edit/master/website/../docs/about-finos.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "about-finos",
+    "title": "About FINOS, the Fintech Open Source Foundation"
+  },
+  "sidebar": "mainSidebar",
+  "previous": {
+    "title": "roadmap",
+    "permalink": "/docs/roadmap"
+  }
+}
