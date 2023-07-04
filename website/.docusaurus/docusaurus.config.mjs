@@ -6,7 +6,7 @@
 export default {
   "title": "FINOS DevOps Automation",
   "tagline": "Special Interest Group",
-  "url": "https://devops-automation.finos.org",
+  "url": "https://devops.finos.org",
   "baseUrl": "/",
   "favicon": "img/favicon/favicon-finos.ico",
   "projectName": "FINOS DevOps Automation",
@@ -30,11 +30,6 @@ export default {
         {
           "to": "docs/home",
           "label": "Docs",
-          "position": "right"
-        },
-        {
-          "to": "docs/roadmap",
-          "label": "Roadmap",
           "position": "right"
         },
         {
@@ -64,10 +59,6 @@ export default {
             {
               "label": "Getting Started",
               "to": "docs/home"
-            },
-            {
-              "label": "Roadmap",
-              "to": "docs/roadmap"
             },
             {
               "label": "Team",
@@ -118,7 +109,7 @@ export default {
     },
     "colorMode": {
       "defaultMode": "light",
-      "disableSwitch": false,
+      "disableSwitch": true,
       "respectPrefersColorScheme": false
     },
     "docs": {
@@ -282,8 +273,7 @@ export default {
       {
         "docs": {
           "path": "../docs",
-          "editUrl": "https://github.com/finos/open-developer-platform/edit/master/website/",
-          "sidebarPath": "/Users/matthewbain/Development/github/devops-automation/website/sidebars.js"
+          "editUrl": "https://github.com/finos/devops-automation/edit/master/website/"
         },
         "theme": {
           "customCss": "/Users/matthewbain/Development/github/devops-automation/website/src/css/custom.css"

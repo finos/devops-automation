@@ -1,23 +1,26 @@
 {
   "unversionedId": "home",
   "id": "home",
-  "title": "Homepage",
-  "description": "Welcome to {project name} !",
+  "title": "DevOps Automation",
+  "description": "What is DevOps Automation?",
   "source": "@site/../docs/home.mdx",
   "sourceDirName": ".",
   "slug": "/home",
   "permalink": "/docs/home",
   "draft": false,
-  "editUrl": "https://github.com/finos/open-developer-platform/edit/master/website/../docs/home.mdx",
+  "editUrl": "https://github.com/finos/devops-automation/edit/master/website/../docs/home.mdx",
   "tags": [],
   "version": "current",
+  "sidebarPosition": 1,
   "frontMatter": {
     "id": "home",
-    "title": "Homepage"
+    "title": "DevOps Automation",
+    "hide_title": true,
+    "sidebar_position": 1
   },
-  "sidebar": "mainSidebar",
+  "sidebar": "defaultSidebar",
   "next": {
-    "title": "team",
-    "permalink": "/docs/team"
+    "title": "Working Groups",
+    "permalink": "/docs/category/working-groups"
   }
 }

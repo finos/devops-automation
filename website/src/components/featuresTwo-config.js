@@ -2,24 +2,31 @@ import React from 'react';
 
 export const featuresTwo = [
     {
-        title: <>Feature 1</>,
-        imageUrl: '/img/finos/finos-blue.png',
+        title: <><a href='docs/working-groups/backstage'>Backstage</a></>,
         description: (
-            <><span>...</span></>
+            <>Driving adoption of the open platform for developer portals and building integrations crucial for the
+                FinTech industry.</>
         ),
     },
     {
-        title: <>Feature 2</>,
-        imageUrl: '/img/finos/finos-blue.png',
+        title: <><a href='docs/working-groups/osssc'>Open Source Supply Chain</a></>,
         description: (
-            <><a href='docs'>...</a></>
+            <>Cross industry collaboration on methods and mechanisms for securing the Open Source Software Supply Chain
+                and mitigating associated risks for the industry
+            </>
         ),
     },
     {
-        title: <>Feature 3</>,
-        imageUrl: '/img/finos/finos-blue.png',
+        title: <><a href='docs/working-groups/acm'>Automated Change Management</a></>,
         description: (
-            <><span>...</span></>
+            <>Drive continuous compliance and assurance of software changes within the Finance Industry through
+                automated change management and associated practices</>
+        ),
+    },
+    {
+        title: <><a href='docs/working-groups/aasc'>Architecture as Code</a></>,
+        description: (
+            <>Shift left the ability to define, measure, automate and trace compliance of financial software to approved architectures and blueprints</>
         ),
     }
 ];

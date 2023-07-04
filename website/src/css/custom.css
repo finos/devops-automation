@@ -94,11 +94,9 @@ body {
     margin-bottom: 25px;
 }
 
-table {
-    border: 1px solid;
-    border-collapse: collapse;
-}
-
-td {
-    border: none;
+.working-group--title {
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+    color: #0079ac;
 }

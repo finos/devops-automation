@@ -39,31 +39,49 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', 'de1'),
+    component: ComponentCreator('/docs', '6f5'),
     routes: [
       {
         path: '/docs/about-finos',
-        component: ComponentCreator('/docs/about-finos', '370'),
+        component: ComponentCreator('/docs/about-finos', '3e3'),
         exact: true,
-        sidebar: "mainSidebar"
+        sidebar: "defaultSidebar"
+      },
+      {
+        path: '/docs/category/working-groups',
+        component: ComponentCreator('/docs/category/working-groups', 'e8e'),
+        exact: true,
+        sidebar: "defaultSidebar"
       },
       {
         path: '/docs/home',
-        component: ComponentCreator('/docs/home', '0dd'),
+        component: ComponentCreator('/docs/home', 'ed7'),
         exact: true,
-        sidebar: "mainSidebar"
+        sidebar: "defaultSidebar"
       },
       {
-        path: '/docs/roadmap',
-        component: ComponentCreator('/docs/roadmap', 'b44'),
+        path: '/docs/working-groups/aasc',
+        component: ComponentCreator('/docs/working-groups/aasc', '4d7'),
         exact: true,
-        sidebar: "mainSidebar"
+        sidebar: "defaultSidebar"
       },
       {
-        path: '/docs/team',
-        component: ComponentCreator('/docs/team', '335'),
+        path: '/docs/working-groups/acm',
+        component: ComponentCreator('/docs/working-groups/acm', '52c'),
         exact: true,
-        sidebar: "mainSidebar"
+        sidebar: "defaultSidebar"
+      },
+      {
+        path: '/docs/working-groups/backstage',
+        component: ComponentCreator('/docs/working-groups/backstage', '21e'),
+        exact: true,
+        sidebar: "defaultSidebar"
+      },
+      {
+        path: '/docs/working-groups/osssc',
+        component: ComponentCreator('/docs/working-groups/osssc', '018'),
+        exact: true,
+        sidebar: "defaultSidebar"
       }
     ]
   },

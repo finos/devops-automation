@@ -13,27 +13,42 @@
             {
               "id": "about-finos",
               "path": "/docs/about-finos",
-              "sidebar": "mainSidebar"
+              "sidebar": "defaultSidebar"
             },
             {
               "id": "home",
               "path": "/docs/home",
-              "sidebar": "mainSidebar"
+              "sidebar": "defaultSidebar"
             },
             {
-              "id": "roadmap",
-              "path": "/docs/roadmap",
-              "sidebar": "mainSidebar"
+              "id": "working-groups/aasc",
+              "path": "/docs/working-groups/aasc",
+              "sidebar": "defaultSidebar"
             },
             {
-              "id": "team",
-              "path": "/docs/team",
-              "sidebar": "mainSidebar"
+              "id": "working-groups/acm",
+              "path": "/docs/working-groups/acm",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "working-groups/backstage",
+              "path": "/docs/working-groups/backstage",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "working-groups/osssc",
+              "path": "/docs/working-groups/osssc",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "/category/working-groups",
+              "path": "/docs/category/working-groups",
+              "sidebar": "defaultSidebar"
             }
           ],
           "draftIds": [],
           "sidebars": {
-            "mainSidebar": {
+            "defaultSidebar": {
               "link": {
                 "path": "/docs/home",
                 "label": "home"

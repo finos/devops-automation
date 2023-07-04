@@ -11,11 +11,10 @@
           "className": "docs-version-current",
           "path": "/docs",
           "tagsPath": "/docs/tags",
-          "editUrl": "https://github.com/finos/open-developer-platform/edit/master/website/../docs",
-          "editUrlLocalized": "https://github.com/finos/open-developer-platform/edit/master/website/i18n/en/docusaurus-plugin-content-docs/current",
+          "editUrl": "https://github.com/finos/devops-automation/edit/master/website/../docs",
+          "editUrlLocalized": "https://github.com/finos/devops-automation/edit/master/website/i18n/en/docusaurus-plugin-content-docs/current",
           "isLast": true,
           "routePriority": -1,
-          "sidebarFilePath": "/Users/matthewbain/Development/github/devops-automation/website/sidebars.js",
           "contentPath": "/Users/matthewbain/Development/github/devops-automation/docs",
           "contentPathLocalized": "/Users/matthewbain/Development/github/devops-automation/website/i18n/en/docusaurus-plugin-content-docs/current",
           "docs": [
@@ -29,60 +28,70 @@
               "slug": "/about-finos",
               "permalink": "/docs/about-finos",
               "draft": false,
-              "editUrl": "https://github.com/finos/open-developer-platform/edit/master/website/../docs/about-finos.md",
+              "editUrl": "https://github.com/finos/devops-automation/edit/master/website/../docs/about-finos.md",
               "tags": [],
               "version": "current",
+              "sidebarPosition": 5,
               "frontMatter": {
                 "id": "about-finos",
-                "title": "About FINOS, the Fintech Open Source Foundation"
+                "title": "About FINOS, the Fintech Open Source Foundation",
+                "sidebar_position": 5
               },
-              "sidebar": "mainSidebar",
+              "sidebar": "defaultSidebar",
               "previous": {
-                "title": "roadmap",
-                "permalink": "/docs/roadmap"
+                "title": "Architecture as Code",
+                "permalink": "/docs/working-groups/aasc"
               }
             },
             {
               "unversionedId": "home",
               "id": "home",
-              "title": "Homepage",
-              "description": "Welcome to {project name} !",
+              "title": "DevOps Automation",
+              "description": "What is DevOps Automation?",
               "source": "@site/../docs/home.mdx",
               "sourceDirName": ".",
               "slug": "/home",
               "permalink": "/docs/home",
               "draft": false,
-              "editUrl": "https://github.com/finos/open-developer-platform/edit/master/website/../docs/home.mdx",
+              "editUrl": "https://github.com/finos/devops-automation/edit/master/website/../docs/home.mdx",
               "tags": [],
               "version": "current",
+              "sidebarPosition": 1,
               "frontMatter": {
                 "id": "home",
-                "title": "Homepage"
+                "title": "DevOps Automation",
+                "hide_title": true,
+                "sidebar_position": 1
               },
-              "sidebar": "mainSidebar",
+              "sidebar": "defaultSidebar",
               "next": {
-                "title": "team",
-                "permalink": "/docs/team"
+                "title": "Working Groups",
+                "permalink": "/docs/category/working-groups"
               }
             },
             {
-              "unversionedId": "roadmap",
-              "id": "roadmap",
-              "title": "roadmap",
-              "description": "---",
-              "source": "@site/../docs/roadmap.mdx",
-              "sourceDirName": ".",
-              "slug": "/roadmap",
-              "permalink": "/docs/roadmap",
+              "unversionedId": "working-groups/aasc",
+              "id": "working-groups/aasc",
+              "title": "Architecture as Code",
+              "description": "",
+              "source": "@site/../docs/working-groups/aasc.mdx",
+              "sourceDirName": "working-groups",
+              "slug": "/working-groups/aasc",
+              "permalink": "/docs/working-groups/aasc",
               "draft": false,
-              "editUrl": "https://github.com/finos/open-developer-platform/edit/master/website/../docs/roadmap.mdx",
+              "editUrl": "https://github.com/finos/devops-automation/edit/master/website/../docs/working-groups/aasc.mdx",
               "tags": [],
               "version": "current",
-              "frontMatter": {},
-              "sidebar": "mainSidebar",
+              "sidebarPosition": 4,
+              "frontMatter": {
+                "id": "aasc",
+                "title": "Architecture as Code",
+                "sidebar_position": 4
+              },
+              "sidebar": "defaultSidebar",
               "previous": {
-                "title": "team",
-                "permalink": "/docs/team"
+                "title": "Automated Change Management",
+                "permalink": "/docs/working-groups/acm"
               },
               "next": {
                 "title": "About FINOS, the Fintech Open Source Foundation",
@@ -90,56 +99,133 @@
               }
             },
             {
-              "unversionedId": "team",
-              "id": "team",
-              "title": "team",
-              "description": "---",
-              "source": "@site/../docs/team.mdx",
-              "sourceDirName": ".",
-              "slug": "/team",
-              "permalink": "/docs/team",
+              "unversionedId": "working-groups/acm",
+              "id": "working-groups/acm",
+              "title": "Automated Change Management",
+              "description": "Our community meetings will follow a Lean Coffee pattern.",
+              "source": "@site/../docs/working-groups/acm.mdx",
+              "sourceDirName": "working-groups",
+              "slug": "/working-groups/acm",
+              "permalink": "/docs/working-groups/acm",
               "draft": false,
-              "editUrl": "https://github.com/finos/open-developer-platform/edit/master/website/../docs/team.mdx",
+              "editUrl": "https://github.com/finos/devops-automation/edit/master/website/../docs/working-groups/acm.mdx",
               "tags": [],
               "version": "current",
-              "frontMatter": {},
-              "sidebar": "mainSidebar",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "id": "acm",
+                "title": "Automated Change Management",
+                "sidebar_position": 3
+              },
+              "sidebar": "defaultSidebar",
               "previous": {
-                "title": "Homepage",
-                "permalink": "/docs/home"
+                "title": "OSS Supply Chain",
+                "permalink": "/docs/working-groups/osssc"
               },
               "next": {
-                "title": "roadmap",
-                "permalink": "/docs/roadmap"
+                "title": "Architecture as Code",
+                "permalink": "/docs/working-groups/aasc"
+              }
+            },
+            {
+              "unversionedId": "working-groups/backstage",
+              "id": "working-groups/backstage",
+              "title": "Backstage",
+              "description": "Our community meetings will follow a Lean Coffee pattern.",
+              "source": "@site/../docs/working-groups/backstage.mdx",
+              "sourceDirName": "working-groups",
+              "slug": "/working-groups/backstage",
+              "permalink": "/docs/working-groups/backstage",
+              "draft": false,
+              "editUrl": "https://github.com/finos/devops-automation/edit/master/website/../docs/working-groups/backstage.mdx",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "id": "backstage",
+                "title": "Backstage",
+                "sidebar_position": 1
+              },
+              "sidebar": "defaultSidebar",
+              "previous": {
+                "title": "Working Groups",
+                "permalink": "/docs/category/working-groups"
+              },
+              "next": {
+                "title": "OSS Supply Chain",
+                "permalink": "/docs/working-groups/osssc"
+              }
+            },
+            {
+              "unversionedId": "working-groups/osssc",
+              "id": "working-groups/osssc",
+              "title": "OSS Supply Chain",
+              "description": "Our community meetings will follow a Lean Coffee pattern.",
+              "source": "@site/../docs/working-groups/osssc.mdx",
+              "sourceDirName": "working-groups",
+              "slug": "/working-groups/osssc",
+              "permalink": "/docs/working-groups/osssc",
+              "draft": false,
+              "editUrl": "https://github.com/finos/devops-automation/edit/master/website/../docs/working-groups/osssc.mdx",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "id": "osssc",
+                "title": "OSS Supply Chain",
+                "sidebar_position": 2
+              },
+              "sidebar": "defaultSidebar",
+              "previous": {
+                "title": "Backstage",
+                "permalink": "/docs/working-groups/backstage"
+              },
+              "next": {
+                "title": "Automated Change Management",
+                "permalink": "/docs/working-groups/acm"
               }
             }
           ],
           "drafts": [],
           "sidebars": {
-            "mainSidebar": [
+            "defaultSidebar": [
+              {
+                "type": "doc",
+                "id": "home"
+              },
               {
                 "type": "category",
-                "label": "Main Menu",
+                "label": "Working Groups",
+                "collapsible": true,
+                "collapsed": true,
                 "items": [
                   {
                     "type": "doc",
-                    "id": "home"
+                    "id": "working-groups/backstage"
                   },
                   {
                     "type": "doc",
-                    "id": "team"
+                    "id": "working-groups/osssc"
                   },
                   {
                     "type": "doc",
-                    "id": "roadmap"
+                    "id": "working-groups/acm"
                   },
                   {
                     "type": "doc",
-                    "id": "about-finos"
+                    "id": "working-groups/aasc"
                   }
                 ],
-                "collapsed": true,
-                "collapsible": true
+                "link": {
+                  "type": "generated-index",
+                  "title": "Working Groups",
+                  "slug": "/category/working-groups",
+                  "permalink": "/docs/category/working-groups"
+                }
+              },
+              {
+                "type": "doc",
+                "id": "about-finos"
               }
             ]
           }

@@ -8,16 +8,18 @@
   "slug": "/about-finos",
   "permalink": "/docs/about-finos",
   "draft": false,
-  "editUrl": "https://github.com/finos/open-developer-platform/edit/master/website/../docs/about-finos.md",
+  "editUrl": "https://github.com/finos/devops-automation/edit/master/website/../docs/about-finos.md",
   "tags": [],
   "version": "current",
+  "sidebarPosition": 5,
   "frontMatter": {
     "id": "about-finos",
-    "title": "About FINOS, the Fintech Open Source Foundation"
+    "title": "About FINOS, the Fintech Open Source Foundation",
+    "sidebar_position": 5
   },
-  "sidebar": "mainSidebar",
+  "sidebar": "defaultSidebar",
   "previous": {
-    "title": "roadmap",
-    "permalink": "/docs/roadmap"
+    "title": "Architecture as Code",
+    "permalink": "/docs/working-groups/aasc"
   }
 }

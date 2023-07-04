@@ -11,7 +11,7 @@ const copyrightOwner = 'FINOS'
 module.exports = {
   title: `FINOS ${projectName}`,
   tagline: `Special Interest Group`,
-  url: 'https://devops-automation.finos.org',
+  url: 'https://devops.finos.org',
   baseUrl: '/',
   favicon: 'img/favicon/favicon-finos.ico',
   projectName: `FINOS ${projectName}`,
@@ -29,7 +29,6 @@ module.exports = {
       },
       items: [
         {to: 'docs/home', label: 'Docs', position: 'right'},
-        {to: 'docs/roadmap', label: 'Roadmap', position: 'right'},
         {to: 'https://github.com/orgs/finos/teams/devops-automation-maintainers', label: 'Team', position: 'right'},
         {
           href: 'https://github.com/finos/devops-automation',
@@ -52,10 +51,6 @@ module.exports = {
             {
               label: 'Getting Started',
               to: 'docs/home',
-            },
-            {
-              label: 'Roadmap',
-              to: 'docs/roadmap',
             },
             {
               label: 'Team',
@@ -103,6 +98,11 @@ module.exports = {
         },
       ]
     },
+    colorMode: {
+      defaultMode: 'light',
+      disableSwitch: true,
+      respectPrefersColorScheme: false
+    }
   },
   presets: [
     [
@@ -111,8 +111,7 @@ module.exports = {
         docs: {
           path: '../docs',
           editUrl:
-            'https://github.com/finos/open-developer-platform/edit/master/website/',
-          sidebarPath: require.resolve('./sidebars.js')
+            'https://github.com/finos/devops-automation/edit/master/website/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
