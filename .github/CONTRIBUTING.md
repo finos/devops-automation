@@ -1,4 +1,4 @@
-# Contributing to {project name}
+# Contributing to finos/devops-automation
 
 finos/devops-automation is [Apache 2.0 licensed](LICENSE) and accepts contributions via git pull requests.  Each commit must include a DCO line in the git commit message:
 
