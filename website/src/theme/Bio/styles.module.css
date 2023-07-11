@@ -1,0 +1,15 @@
+.bio {
+    display: flex;
+    padding-bottom: 1rem;
+    align-items: center;
+}
+
+.description p {
+    margin: revert;
+}
+
+.headshot {
+    width: 10rem;
+    border-radius: 50%;
+    padding: 1rem;
+}
