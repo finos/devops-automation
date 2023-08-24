@@ -29,7 +29,7 @@ function Home() {
                                 'button button--outline button--secondary button--lg',
                                 styles.getStarted
                             )}
-                            to={'mailto:devops-automation+subscribe@lists.finos.org?subject=Subscribe'}>
+                            to={'mailto:devops-automation+subscribe@finos.org?subject=Subscribe'}>
                             SUBSCRIBE
                         </Link>
                     </div>
