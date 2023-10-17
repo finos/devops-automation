@@ -1,0 +1,133 @@
+{
+  "nodes": [
+    {
+      "uniqueId": 42,
+      "type": "system",
+      "name": "foo",
+      "description": "bar"
+    },
+    {
+      "uniqueId": -1,
+      "type": "actor",
+      "name": "Trader",
+      "description": "Person who trades ..."
+    },
+    {
+      "uniqueId": 0,
+      "type": "webclient",
+      "name": "Client",
+      "description": "...",
+      "data-classification": "Confidential",
+      "run-as": "user"
+    },
+    {
+      "uniqueId": 1,
+      "type": "service",
+      "name": "WebGui",
+      "description": "...",
+      "data-classification": "Confidential",
+      "run-as": "systemId"
+    },
+    {
+      "uniqueId": 2,
+      "type": "service",
+      "name": "Position Service",
+      "description": "...",
+      "data-classification": "Confidential",
+      "run-as": "systemId"
+    },
+    {
+      "uniqueId": 3,
+      "type": "database",
+      "name": "Position DB",
+      "description": "...",
+      "data-classification": "Confidential",
+      "run-as": "systemId"
+    },
+    {
+      "uniqueId": 4,
+      "type": "internal-network",
+      "name": "Bank ABC Internal Network",
+      "description": "...",
+      "instance": "Internal Network"
+    }
+  ],
+  "relationships": [
+    {
+      "uniqueId": 100,
+      "type": "interacts",
+      "parties": {
+        "actor": -1,
+        "nodes": [
+          0
+        ]
+      }
+    },
+    {
+      "uniqueId": 101,
+      "type": "connects",
+      "parties": {
+        "source": 0,
+        "destination": 1
+      },
+      "protocol": "https",
+      "authentication": "Siteminder/Isolated"
+    },
+    {
+      "uniqueId": 102,
+      "type": "connects",
+      "parties": {
+        "source": 1,
+        "destination": 2
+      },
+      "protocol": "https",
+      "authentication": "SPNEGO"
+    },
+    {
+      "uniqueId": 103,
+      "type": "connects",
+      "parties": {
+        "source": 2,
+        "destination": 3
+      },
+      "protocol": "jdbc",
+      "authentication": "Kerberos"
+    },
+    {
+      "uniqueId": 104,
+      "type": "deployed-in",
+      "parties": {
+        "nodes": [
+          42
+        ],
+        "container": 4
+      }
+    },
+    {
+      "uniqueId": 105,
+      "type": "composed-of",
+      "parties": {
+        "nodes": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "container": 42
+      }
+    },
+    {
+      "uniqueId": 106,
+      "type": "deployed-in",
+      "parties": {
+        "nodes": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "container": 4
+      }
+    }
+  ]
+}
