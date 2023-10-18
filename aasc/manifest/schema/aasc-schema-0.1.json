@@ -1,0 +1,106 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "id": "http://devops.finos.org/devops-automation/aasc/0.1",
+  "title": "Architecture As Code 0.1",
+  "type": "object",
+  "defs": {
+    "definitions": {
+      "dataClassification": {
+        "enum": [
+          "Public",
+          "Confidential",
+          "Highly Restricted",
+          "MNPI"
+        ]
+      }
+    }
+  },
+  "properties": {
+    "nodes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "uniqueId": {
+            "type": "number"
+          },
+          "type": {
+            "type": "string"
+          },
+          "name": {
+            "type": "string"
+          },
+          "description": {
+            "type": "string"
+          },
+          "data-classification": { "$ref": "#/defs/definitions/dataClassification" },
+          "run-as": {
+            "type": "string"
+          },
+          "instance": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "uniqueId",
+          "type",
+          "name",
+          "description"
+        ]
+      }
+    },
+    "relationships": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "uniqueId": {
+            "type": "number"
+          },
+          "type": {
+            "type": "string"
+          },
+          "parties": {
+            "type": "object",
+            "properties": {
+              "actor": {
+                "type": "number"
+              },
+              "nodes": {
+                "type": "array",
+                "items": {
+                  "type": "number"
+                }
+              },
+              "source": {
+                "type": "number"
+              },
+              "destination": {
+                "type": "number"
+              },
+              "container": {
+                "type": "number"
+              }
+            },
+            "required": []
+          },
+          "protocol": {
+            "type": "string"
+          },
+          "authentication": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "uniqueId",
+          "type",
+          "parties"
+        ]
+      }
+    }
+  },
+  "required": [
+    "nodes",
+    "relationships"
+  ]
+}
