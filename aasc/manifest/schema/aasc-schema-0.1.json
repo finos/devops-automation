@@ -31,6 +31,16 @@
           "SPNEGO",
           "SiteMinder/Isolated"
         ]
+      },
+      "type": {
+        "enum": [
+          "actor",
+          "system",
+          "service",
+          "database",
+          "internal-network",
+          "ldap"
+        ]
       }
     }
   },
@@ -44,7 +54,7 @@
             "type": "string"
           },
           "type": {
-            "type": "string"
+            "$ref": "#/defs/definitions/type"
           },
           "name": {
             "type": "string"
@@ -52,7 +62,9 @@
           "description": {
             "type": "string"
           },
-          "data-classification": { "$ref": "#/defs/definitions/dataClassification" },
+          "data-classification": {
+            "$ref": "#/defs/definitions/dataClassification"
+          },
           "run-as": {
             "type": "string"
           },
@@ -103,8 +115,12 @@
             },
             "required": []
           },
-          "protocol": { "$ref": "#/defs/definitions/protocol" },
-          "authentication": { "$ref": "#/defs/definitions/authentication" },
+          "protocol": {
+            "$ref": "#/defs/definitions/protocol"
+          },
+          "authentication": {
+            "$ref": "#/defs/definitions/authentication"
+          }
         },
         "required": [
           "uniqueId",
