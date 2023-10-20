@@ -20,7 +20,10 @@
           "HTTPS",
           "FTP",
           "SFTP",
-          "JDBC"
+          "JDBC",
+          "WebSocket",
+          "SocketIO",
+          "LDAP"
         ]
       },
       "authentication": {

@@ -37,10 +37,10 @@
       "run-as": "systemId"
     },
     {
-      "uniqueId": "positions-db",
+      "uniqueId": "traderx-db",
       "type": "database",
-      "name": "Position DB",
-      "description": "Database which stores positions",
+      "name": "TraderX DB",
+      "description": "Database which stores account, trade and position state",
       "data-classification": "Confidential",
       "run-as": "systemId"
     },
@@ -50,6 +50,62 @@
       "name": "Bank ABC Internal Network",
       "description": "Internal network for Bank ABC",
       "instance": "Internal Network"
+    },
+    {
+      "uniqueId": "reference-data-service",
+      "type": "service",
+      "name": "Reference Data Service",
+      "description": "Service which provides reference data",
+      "data-classification": "Confidential",
+      "run-as": "systemId"
+    },
+    {
+      "uniqueId": "trading-services",
+      "type": "service",
+      "name": "Trading Services",
+      "description": "Service which provides trading services",
+      "data-classification": "Confidential",
+      "run-as": "systemId"
+    },
+    {
+      "uniqueId": "trade-feed",
+      "type": "service",
+      "name": "Trade Feed",
+      "description": "Message bus for streaming updates to trades and positions",
+      "data-classification": "Confidential",
+      "run-as": "systemId"
+    },
+    {
+      "uniqueId": "trade-processor",
+      "type": "service",
+      "name": "Trade Processor",
+      "description": "Process incoming trade requests, settle and persist",
+      "data-classification": "Confidential",
+      "run-as": "systemId"
+    },
+    {
+      "uniqueId": "accounts-service",
+      "type": "service",
+      "name": "Accounts Service",
+      "description": "Service which provides account management",
+      "data-classification": "Confidential",
+      "run-as": "systemId"
+    },
+    {
+      "uniqueId": "people-service",
+      "type": "service",
+      "name": "People Service",
+      "description": "Service which provides user details management",
+      "data-classification": "Confidential",
+      "run-as": "systemId"
+    },
+    {
+      "uniqueId": "user-directory",
+      "type": "ldap",
+      "name": "User Directory",
+      "description": "Golden source of user data",
+      "data-classification": "PII",
+      "run-as": "systemId"
     }
   ],
   "relationships": [
@@ -84,11 +140,11 @@
       "authentication": "SPNEGO"
     },
     {
-      "uniqueId": "position-service-uses-positions-db",
+      "uniqueId": "position-service-uses-traderx-db",
       "type": "connects",
       "parties": {
         "source": "position-service",
-        "destination": "positions-db"
+        "destination": "traderx-db"
       },
       "protocol": "JDBC",
       "authentication": "Kerberos"
@@ -98,7 +154,7 @@
       "type": "deployed-in",
       "parties": {
         "nodes": [
-          "traderx-system",
+          "traderx-system"
         ],
         "container": "internal-bank-network"
       }
@@ -111,7 +167,7 @@
           "web-client",
           "web-gui-process",
           "position-service",
-          "positions-db"
+          "traderx-db"
         ],
         "container": "traderx-system"
       }
@@ -124,10 +180,90 @@
           "web-client",
           "web-gui-process",
           "position-service",
-          "positions-db"
+          "traderx-db"
         ],
         "container": "internal-bank-network"
       }
+    },
+    {
+      "uniqueId": "webgui-process-uses-reference-data-service",
+      "type": "connects",
+      "parties": {
+        "source": "web-gui-process",
+        "destination": "reference-data-service"
+      },
+      "protocol": "HTTPS",
+      "authentication": "SPNEGO"
+    },
+    {
+      "uniqueId": "webgui-process-uses-trading-services",
+      "type": "connects",
+      "parties": {
+        "source": "web-gui-process",
+        "destination": "trading-services"
+      },
+      "protocol": "HTTPS",
+      "authentication": "SPNEGO"
+    },
+    {
+      "uniqueId": "webgui-process-uses-trade-feed",
+      "type": "connects",
+      "parties": {
+        "source": "web-gui-process",
+        "destination": "trade-feed"
+      },
+      "protocol": "WebSocket",
+      "authentication": "Kerberos"
+    },
+    {
+      "uniqueId": "trade-feed-connects-to-trade-processor",
+      "type": "connects",
+      "parties": {
+        "source": "trade-feed",
+        "destination": "trade-processor"
+      },
+      "protocol": "AMQP",
+      "authentication": "Kerberos"
+    },
+    {
+      "uniqueId": "trade-processor-connects-to-traderx-db",
+      "type": "connects",
+      "parties": {
+        "source": "trade-processor",
+        "destination": "traderx-db"
+      },
+      "protocol": "JDBC",
+      "authentication": "Kerberos"
+    },
+    {
+      "uniqueId": "webgui-process-uses-accounts-service",
+      "type": "connects",
+      "parties": {
+        "source": "web-gui-process",
+        "destination": "accounts-service"
+      },
+      "protocol": "HTTPS",
+      "authentication": "SPNEGO"
+    },
+    {
+      "uniqueId": "webgui-process-uses-people-service",
+      "type": "connects",
+      "parties": {
+        "source": "web-gui-process",
+        "destination": "people-service"
+      },
+      "protocol": "HTTPS",
+      "authentication": "SPNEGO"
+    },
+    {
+      "uniqueId": "people-service-connects-to-user-directory",
+      "type": "connects",
+      "parties": {
+        "source": "people-service",
+        "destination": "user-directory"
+      },
+      "protocol": "LDAP",
+      "authentication": "Kerberos"
     }
   ]
 }

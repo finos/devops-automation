@@ -131,3 +131,73 @@ relationships:
         - position-service
         - traderx-db
       container: internal-bank-network
+  - uniqueId: webgui-process-uses-reference-data-service
+    type: connects
+    parties:
+      source: web-gui-process
+      destination: reference-data-service
+    protocol: HTTPS
+    authentication: SPNEGO
+  - uniqueId: webgui-process-uses-trading-services
+    type: connects
+    parties:
+      source: web-gui-process
+      destination: trading-services
+    protocol: HTTPS
+    authentication: SPNEGO
+  - uniqueId: webgui-process-uses-trade-feed
+    type: connects
+    parties:
+      source: web-gui-process
+      destination: trade-feed
+    protocol: WebSocket
+    authentication: Kerberos
+  - uniqueId: trade-processor-uses-traderx-db
+    type: connects
+    parties:
+      source: trade-processor
+      destination: traderx-db
+    protocol: JDBC
+    authentication: Kerberos
+  - uniqueId: trade-processor-uses-trade-feed
+    type: connects
+    parties:
+      source: trade-processor
+      destination: trade-feed
+    protocol: SocketIO
+    authentication: Kerberos
+  - uniqueId: trading-services-uses-account-service
+    type: connects
+    parties:
+      source: trading-services
+      destination: accounts-service
+    protocol: HTTPS
+    authentication: SPNEGO
+  - uniqueId: accounts-service-uses-people-service
+    type: connects
+    parties:
+      source: accounts-service
+      destination: people-service
+    protocol: HTTPS
+    authentication: SPNEGO
+  - uniqueId: people-service-uses-user-directory
+    type: connects
+    parties:
+      source: people-service
+      destination: user-directory
+    protocol: LDAP
+    authentication: Kerberos
+  - uniqueId: webgui-process-uses-people-service
+    type: connects
+    parties:
+      source: web-gui-process
+      destination: people-service
+    protocol: HTTPS
+    authentication: SPNEGO
+  - uniqueId: webgui-process-uses-account-service
+    type: connects
+    parties:
+      source: web-gui-process
+      destination: accounts-service
+    protocol: HTTPS
+    authentication: SPNEGO
