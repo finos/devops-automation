@@ -25,10 +25,10 @@ nodes:
     description: Server process which processes trading activity and updates positions
     data-classification: Confidential
     run-as: systemId
-  - uniqueId: positions-db
+  - uniqueId: traderx-db
     type: database
-    name: Position DB
-    description: Database which stores positions
+    name: TraderX DB
+    description: Database which stores account, trade and position state
     data-classification: Confidential
     run-as: systemId
   - uniqueId: internal-bank-network
@@ -36,6 +36,48 @@ nodes:
     name: Bank ABC Internal Network
     description: Internal network for Bank ABC
     instance: Internal Network
+  - uniqueId: reference-data-service
+    type: service
+    name: Reference Data Service
+    description: Service which provides reference data
+    data-classification: Confidential
+    run-as: systemId
+  - uniqueId: trading-services
+    type: service
+    name: Trading Services
+    description: Service which provides trading services
+    data-classification: Confidential
+    run-as: systemId
+  - uniqueId: trade-feed
+    type: service
+    name: Trade Feed
+    description: Message bus for streaming updates to trades and positions
+    data-classification: Confidential
+    run-as: systemId
+  - uniqueId: trade-processor
+    type: service
+    name: Trade Processor
+    description: Process incoming trade requests, settle and persist
+    data-classification: Confidential
+    run-as: systemId
+  - uniqueId: accounts-service
+    type: service
+    name: Accounts Service
+    description: Service which provides account management
+    data-classification: Confidential
+    run-as: systemId
+  - uniqueId: people-service
+    type: service
+    name: People Service
+    description: Service which provides user details management
+    data-classification: Confidential
+    run-as: systemId
+  - uniqueId: user-directory
+    type: ldap
+    name: User Directory
+    description: Golden source of user data
+    data-classification: PII
+    run-as: systemId
 
 relationships:
   - uniqueId: trader-uses-web-client
@@ -58,11 +100,11 @@ relationships:
       destination: position-service
     protocol: HTTPS
     authentication: SPNEGO
-  - uniqueId: position-service-uses-positions-db
+  - uniqueId: position-service-uses-traderx-db
     type: connects
     parties:
       source: position-service
-      destination: positions-db
+      destination: traderx-db
     protocol: JDBC
     authentication: Kerberos
   - uniqueId: traderx-system-is-deployed-in-internal-bank-network
@@ -78,7 +120,7 @@ relationships:
         - web-client
         - web-gui-process
         - position-service
-        - positions-db
+        - traderx-db
       container: traderx-system
   - uniqueId: traderx-system-components-are-deployed-in-internal-bank-network
     type: deployed-in
@@ -87,5 +129,75 @@ relationships:
         - web-client
         - web-gui-process
         - position-service
-        - positions-db
+        - traderx-db
       container: internal-bank-network
+  - uniqueId: webgui-process-uses-reference-data-service
+    type: connects
+    parties:
+      source: web-gui-process
+      destination: reference-data-service
+    protocol: HTTPS
+    authentication: SPNEGO
+  - uniqueId: webgui-process-uses-trading-services
+    type: connects
+    parties:
+      source: web-gui-process
+      destination: trading-services
+    protocol: HTTPS
+    authentication: SPNEGO
+  - uniqueId: webgui-process-uses-trade-feed
+    type: connects
+    parties:
+      source: web-gui-process
+      destination: trade-feed
+    protocol: WebSocket
+    authentication: Kerberos
+  - uniqueId: trade-processor-uses-traderx-db
+    type: connects
+    parties:
+      source: trade-processor
+      destination: traderx-db
+    protocol: JDBC
+    authentication: Kerberos
+  - uniqueId: trade-processor-uses-trade-feed
+    type: connects
+    parties:
+      source: trade-processor
+      destination: trade-feed
+    protocol: SocketIO
+    authentication: Kerberos
+  - uniqueId: trading-services-uses-account-service
+    type: connects
+    parties:
+      source: trading-services
+      destination: accounts-service
+    protocol: HTTPS
+    authentication: SPNEGO
+  - uniqueId: accounts-service-uses-people-service
+    type: connects
+    parties:
+      source: accounts-service
+      destination: people-service
+    protocol: HTTPS
+    authentication: SPNEGO
+  - uniqueId: people-service-uses-user-directory
+    type: connects
+    parties:
+      source: people-service
+      destination: user-directory
+    protocol: LDAP
+    authentication: Kerberos
+  - uniqueId: webgui-process-uses-people-service
+    type: connects
+    parties:
+      source: web-gui-process
+      destination: people-service
+    protocol: HTTPS
+    authentication: SPNEGO
+  - uniqueId: webgui-process-uses-account-service
+    type: connects
+    parties:
+      source: web-gui-process
+      destination: accounts-service
+    protocol: HTTPS
+    authentication: SPNEGO
