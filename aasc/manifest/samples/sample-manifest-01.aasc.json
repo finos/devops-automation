@@ -1,132 +1,132 @@
 {
   "nodes": [
     {
-      "uniqueId": 42,
+      "uniqueId": "traderx-system",
       "type": "system",
-      "name": "foo",
-      "description": "bar"
+      "name": "TraderX",
+      "description": "Simple Trading System"
     },
     {
-      "uniqueId": -1,
+      "uniqueId": "traderx-trader",
       "type": "actor",
       "name": "Trader",
-      "description": "Person who trades ..."
+      "description": "Person who manages accounts and executes trades"
     },
     {
-      "uniqueId": 0,
+      "uniqueId": "web-client",
       "type": "webclient",
-      "name": "Client",
-      "description": "...",
+      "name": "Web  Client",
+      "description": "Browser based web interface for TraderX",
       "data-classification": "Confidential",
       "run-as": "user"
     },
     {
-      "uniqueId": 1,
+      "uniqueId": "web-gui-process",
       "type": "service",
-      "name": "WebGui",
-      "description": "...",
+      "name": "Web GUI",
+      "description": "Backend service for the Web Client",
       "data-classification": "Confidential",
       "run-as": "systemId"
     },
     {
-      "uniqueId": 2,
+      "uniqueId": "position-service",
       "type": "service",
       "name": "Position Service",
-      "description": "...",
+      "description": "Server process which processes trading activity and updates positions",
       "data-classification": "Confidential",
       "run-as": "systemId"
     },
     {
-      "uniqueId": 3,
+      "uniqueId": "positions-db",
       "type": "database",
       "name": "Position DB",
-      "description": "...",
+      "description": "Database which stores positions",
       "data-classification": "Confidential",
       "run-as": "systemId"
     },
     {
-      "uniqueId": 4,
+      "uniqueId": "internal-bank-network",
       "type": "internal-network",
       "name": "Bank ABC Internal Network",
-      "description": "...",
+      "description": "Internal network for Bank ABC",
       "instance": "Internal Network"
     }
   ],
   "relationships": [
     {
-      "uniqueId": 100,
+      "uniqueId": "trader-uses-web-client",
       "type": "interacts",
       "parties": {
-        "actor": -1,
+        "actor": "traderx-trader",
         "nodes": [
-          0
+          "web-client"
         ]
       }
     },
     {
-      "uniqueId": 101,
+      "uniqueId": "web-client-uses-web-gui",
       "type": "connects",
       "parties": {
-        "source": 0,
-        "destination": 1
+        "source": "web-client",
+        "destination": "web-gui-process"
       },
-      "protocol": "https",
-      "authentication": "Siteminder/Isolated"
+      "protocol": "HTTPS",
+      "authentication": "SiteMinder/Isolated"
     },
     {
-      "uniqueId": 102,
+      "uniqueId": "web-gui-uses-position-service",
       "type": "connects",
       "parties": {
-        "source": 1,
-        "destination": 2
+        "source": "web-gui-process",
+        "destination": "position-service"
       },
-      "protocol": "https",
+      "protocol": "HTTPS",
       "authentication": "SPNEGO"
     },
     {
-      "uniqueId": 103,
+      "uniqueId": "position-service-uses-positions-db",
       "type": "connects",
       "parties": {
-        "source": 2,
-        "destination": 3
+        "source": "position-service",
+        "destination": "positions-db"
       },
-      "protocol": "jdbc",
+      "protocol": "JDBC",
       "authentication": "Kerberos"
     },
     {
-      "uniqueId": 104,
+      "uniqueId": "traderx-system-is-deployed-in-internal-bank-network",
       "type": "deployed-in",
       "parties": {
         "nodes": [
-          42
+          "traderx-system",
         ],
-        "container": 4
+        "container": "internal-bank-network"
       }
     },
     {
-      "uniqueId": 105,
+      "uniqueId": "traderx-system-is-composed-of",
       "type": "composed-of",
       "parties": {
         "nodes": [
-          0,
-          1,
-          2,
-          3
+          "web-client",
+          "web-gui-process",
+          "position-service",
+          "positions-db"
         ],
-        "container": 42
+        "container": "traderx-system"
       }
     },
     {
-      "uniqueId": 106,
+      "uniqueId": "traderx-system-components-are-deployed-in-internal-bank-network",
       "type": "deployed-in",
       "parties": {
         "nodes": [
-          0,
-          1,
-          2,
-          3
+          "web-client",
+          "web-gui-process",
+          "position-service",
+          "positions-db"
         ],
-        "container": 4
+        "container": "internal-bank-network"
       }
     }
   ]

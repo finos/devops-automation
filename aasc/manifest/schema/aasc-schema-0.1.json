@@ -12,6 +12,24 @@
           "Highly Restricted",
           "MNPI"
         ]
+      },
+      "protocol": {
+        "enum": [
+          "HTTP",
+          "HTTPS",
+          "FTP",
+          "SFTP",
+          "JDBC"
+        ]
+      },
+      "authentication": {
+        "enum": [
+          "Basic",
+          "OAuth2",
+          "Kerberos",
+          "SPNEGO",
+          "SiteMinder/Isolated"
+        ]
       }
     }
   },
@@ -22,7 +40,7 @@
         "type": "object",
         "properties": {
           "uniqueId": {
-            "type": "number"
+            "type": "string"
           },
           "type": {
             "type": "string"
@@ -55,7 +73,7 @@
         "type": "object",
         "properties": {
           "uniqueId": {
-            "type": "number"
+            "type": "string"
           },
           "type": {
             "type": "string"
@@ -64,32 +82,28 @@
             "type": "object",
             "properties": {
               "actor": {
-                "type": "number"
+                "type": "string"
               },
               "nodes": {
                 "type": "array",
                 "items": {
-                  "type": "number"
+                  "type": "string"
                 }
               },
               "source": {
-                "type": "number"
+                "type": "string"
               },
               "destination": {
-                "type": "number"
+                "type": "string"
               },
               "container": {
-                "type": "number"
+                "type": "string"
               }
             },
             "required": []
           },
-          "protocol": {
-            "type": "string"
-          },
-          "authentication": {
-            "type": "string"
-          }
+          "protocol": { "$ref": "#/defs/definitions/protocol" },
+          "authentication": { "$ref": "#/defs/definitions/authentication" },
         },
         "required": [
           "uniqueId",
