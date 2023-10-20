@@ -10,7 +10,8 @@
           "Public",
           "Confidential",
           "Highly Restricted",
-          "MNPI"
+          "MNPI",
+          "PII"
         ]
       },
       "protocol": {
