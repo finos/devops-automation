@@ -1,0 +1,5 @@
+position: 1
+label: 'Meeting Minutes'
+link:
+    type: generated-index
+    title: Meeting Minutes
