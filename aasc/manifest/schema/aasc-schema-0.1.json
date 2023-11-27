@@ -23,7 +23,8 @@
           "JDBC",
           "WebSocket",
           "SocketIO",
-          "LDAP"
+          "LDAP",
+          "AMQP"
         ]
       },
       "authentication": {
