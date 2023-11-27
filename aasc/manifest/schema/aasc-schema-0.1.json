@@ -42,7 +42,8 @@
           "service",
           "database",
           "internal-network",
-          "ldap"
+          "ldap",
+          "webclient"
         ]
       }
     }
