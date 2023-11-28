@@ -44,9 +44,9 @@ _day-of-week_ DD MMM yyyy - _time_ EST / _time_ UK
 ### Zoom info
 
 **Join Zoom Meeting**
-- https://zoom.us/j/95521041942?pwd=dHgwREU2TzBsS242ak1zYWZsUW9OUT09
-- Meeting ID: 955 2104 1942
-- Passcode: 443820
+- https://zoom.us/j/94904595244
+- Meeting ID: 949 0459 5244
+- Passcode: 545224
 - Find your local number: https://zoom.us/u/aesEqmNODb
 
 **Github Repo:** https://github.com/finos/devops-automation/
