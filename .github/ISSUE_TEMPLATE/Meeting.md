@@ -43,11 +43,15 @@ _day-of-week_ DD MMM yyyy - _time_ EST / _time_ UK
 
 ### Zoom info
 
-**Join Zoom Meeting**
-- https://zoom.us/j/95521041942?pwd=dHgwREU2TzBsS242ak1zYWZsUW9OUT09
-- Meeting ID: 955 2104 1942
-- Passcode: 443820
-- Find your local number: https://zoom.us/u/aesEqmNODb
+Join Zoom Meeting
+[https://zoom.us/j/94904595244](https://www.google.com/url?q=https%3A%2F%2Fzoom.us%2Fj%2F94904595244%3Fpwd%3DdjIxWjlrenBGNWZmSGZ3cWJhamFTZz09&sa=D&ust=1701547380000000&usg=AOvVaw3ahjwoL3uWenXRz09RFdlt)
+
+Meeting ID: 949 0459 5244
+Passcode: 545224
+
+One tap mobile
++16892781000,,95521041942# US
++17193594580,,95521041942# US
 
 **Github Repo:** https://github.com/finos/devops-automation/
 
