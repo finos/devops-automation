@@ -4,24 +4,28 @@ title: Architecture as Code
 sidebar_position: 4
 ---
 
-Our collective focus lies in the progressive practice of codifying the logical design and behavior of software systems. The concept of "Architecture as Code" (AasC) aims to devise and manage software architecture via a readable and version-controlled codebase, fostering a robust understanding, efficient development, and seamless maintenance of complex software architectures.
+"Architecture as Code" (AasC) aims to devise and manage software architecture via a readable and version-controlled codebase, fostering a robust understanding, efficient development, and seamless maintenance of complex software architectures.
+
+## About this Working Group
+The Architecture as Code Working Group is a forum for the discussion and coordination of the [Architecture as Code](https://github.com/finos-labs-/architecture-as-code) Manifest and its associated projects. The group is open to all interested parties, and we welcome contributions from all members of the community.
 
 ## Objectives
 
-### Promote Best Practices & Knowledge Sharing
-The group aims to share and cultivate best practices for defining, managing, and evolving software architectures as code, with a focus on sustainability, scalability, and adaptability. We offer a platform for discussing the triumphs and challenges associated with the implementation and evolution of Architecture as Code. We facilitate the sharing of experiences, problems, solutions, and resources.
+### Maintain the Architecture as Code Manifest
+This Working Group is responsible for maintaining the [Architecture as Code Manifest](https://github.com/finos-labs/architecture-as-code/tree/main/manifest). The manifest is a collection of JSON schemas that defines the structure and content of a system architecture. The manifest is designed to be used as a single source of truth for the architecture of a system.
 
-### Develop Standards
-Collaborating to generate consistent standards, protocols and design patterns. Enable member institutions and software vendors to develop interoperable tools to consistent standards. Enhance the readability and consumption of codified architectures, ensuring efficient comprehension and a common language across a range of systems and environments.
+The manifest is split into a core schema, the key elements required to define a system architecture, and domains, which are supplementary schemas that provide additional context and capabilities for a specific domain of the architecture such as security, deployment, data, etc.
 
-### Tool Definition
-Define the required features and capabilities for tools that will support the creation of as well as the tools that would fulfill the ambitions of Architecture as Code. These could include, but are not limited to:
-* Systematic Architecture Assurance
-* Automated Documentation & Diagram Generation
-* Pre-Approved 'Architecture Blueprints'
-* Architecture Artefact Creation & Storage
+For more details on how the manifest is structured, please see the [manifest documentation](https://github.com/finos-labs/architecture-as-code/blob/main/manifest/README.md)
 
-By identifying the needs of practitioners in this field, we can help guide the development of new tools and the improvement of existing ones.
+### Develop Architecture Capabilities
+In addition to the manifest, the working group also oversees the development of key capabilities. A capability is the implementation of a key feature to support the architecture community such as:
+* Design tools to enable easier generation of AasC specifications
+* Translators between the AasC manifest and other formats
+* Drift detection tools
+* Automated documentation generation
+
+As this community is still in its infancy we are focusing on a few key capabilities to help evolve the manifest specification. To see what capabilities are currently being developed, to contribute or to propose additional capabilities please visit the [Architecture as Code Repository](https://github.com/finos-labs/architecture-as-code/).
 
 ### Advocacy
 Raise awareness of the benefits and practicalities of Architecture as Code within the wider software development community. By engaging more professionals and organizations with this innovative approach to software design and architecture, we aim to advance the entire industry.
@@ -31,18 +35,30 @@ The Working Group invites those interested in helping define the future of softw
 ## People
 The Working Group is organised by . . .
 <Bio name="Yan Tordoff" organisation="Morgan Stanley" image="https://avatars.githubusercontent.com/u/71541861?v=4">
-    Yan Tordoff is the Global Head of Architecture at Morgan Stanley, where he has worked in various roles since 2010.  Having ignited his love of coding in the era of ZX Spectrums and Commodore Amigas, Yan went on to study Computer Science at Cambridge University. From there, he embarked on a technology career in various start-ups and larger financial institutions where he has been able to apply his hands-on engineering, architectural and transformational skills over the years.
+    Yan Tordoff is the Global Head of Architecture at Morgan Stanley, where he has worked in various roles since 2010.
+    Having ignited his love of coding in the era of ZX Spectrums and Commodore Amigas, Yan went on to study Computer
+    Science at Cambridge University. From there, he embarked on a technology career in various start-ups and larger
+    financial institutions where he has been able to apply his hands-on engineering, architectural and transformational
+    skills over the years.
     <br/><br/>
     As well as his MA from Cambridge, Yan is a Chartered IT Professional and Chartered Engineer.
 </Bio>
 <br/><br/>
 <Bio name="Matthew Bain" organisation="Morgan Stanley" image="https://avatars.githubusercontent.com/u/66839492?v=4">
-    Matthew Bain leads Architecture, DevOps and Modernization for Securities Finance Technology at Morgan Stanley. He joined the firm in 2013 and has held various roles across the Institutional Securities Technology division. Matthew has been interested in computers since he was a child, starting from typing out BASIC programs from computer magazines on his brothers Acorn Electron and later deciding he knew how to fix his shorting laptop graphics card with a soldering iron, something that surprisingly worked.
+    Matthew Bain leads Architecture, DevOps and Modernization for Securities Finance Technology at Morgan Stanley. He
+    joined the firm in 2013 and has held various roles across the Institutional Securities Technology division. Matthew
+    has been interested in computers since he was a child, starting from typing out BASIC programs from computer
+    magazines on his brothers Acorn Electron and later deciding he knew how to fix his shorting laptop graphics card
+    with a soldering iron, something that surprisingly worked.
     <br/><br/>
-    Matthew studied Computer Science at Durham University and has worked in Technology across the Finance industry for over 20 years. Matthew is passionate about improving software development practices and driving speed, agility and resilience through a radical focus on process automation.
+    Matthew studied Computer Science at Durham University and has worked in Technology across the Finance industry for
+    over 20 years. Matthew is passionate about improving software development practices and driving speed, agility and
+    resilience through a radical focus on process automation.
 </Bio>
 
-## Meeetings
+## Meetings
 Meetings of the working group are held on the fourth Tuesday of each month at 11am Eastern / 16:00 UK, and are open to anyone who would like to participate.
 
-* View [agendas](https://github.com/finos/devops-automation/issues?q=is%3Aopen+label%3Ameeting+label%3Aarchitecture-as-code) of upcoming meetings
+* [Upcoming Meetings](https://github.com/finos/devops-automation/issues?q=is%3Aopen+label%3Ameeting+label%3Aarchitecture-as-code)
+* [Previous Meetings](https://github.com/finos/devops-automation/issues?q=label%3Ameeting+label%3Aarchitecture-as-code+is%3Aclosed)
+
