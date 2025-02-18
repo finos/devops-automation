@@ -21,7 +21,7 @@ If you would like to get involved in a specific working group, check out that wo
 
 ## Mailing List
 
-All SIG related communications are conducted through the devops-mutulization@finos.org mailing list. Email devops-automation@finos.org with questions or suggestions for collaboration use cases.
+All SIG related communications are conducted through the devops-automation@finos.org mailing list. Email devops-automation@finos.org with questions or suggestions for collaboration use cases.
 
 Subscribe to the DevOps Automation mailing list by sending an email to [devops-automation+subscribe@finos.org](mailto:devops-automation+subscribe@finos.org?subject=Subscribe).
 
