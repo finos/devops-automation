@@ -1,5 +1,5 @@
 import React from 'react';
-import classnames from 'classnames';
+import clsx from 'clsx';
 import styles from '../pages/styles.module.css';
 
 export default function Feature({title, description}) {
@@ -10,7 +10,7 @@ export default function Feature({title, description}) {
     return (
         <div>
             <h3>{title}</h3>
-            <div className={classnames(styles.featureAbout)}>{description}</div>
+            <div className={clsx(styles.featureAbout)}>{description}</div>
         </div>
     );
 }

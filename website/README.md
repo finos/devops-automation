@@ -1,26 +1,43 @@
-This website was created with [Docusaurus v2](https://v2.docusaurus.io/).
+# FINOS DevOps Automation Website
 
-In order to start working with Docusaurus, please read the [Getting Started guide](https://docusaurus.io/docs/configuration) and browse through the following folders and files:
-- `website` - contains the Node/React code to build the website
-- `website/docusaurus.config.js` - contains the Docusaurus configuration; you'll need to edit this file.
-- `website/static` - contains images, PDF and other static assets used in the website; if you add a `file.pdf` in this folder, it will be served as `https://<your_host>/file.pdf`.
-- `docs` - contains the `.md` and `.mdx` files that are served as `https://<your_host>/<file_id>` ; the `file_id` is defined at the top of the file.
+This website is built using [Docusaurus 3](https://docusaurus.io/), a modern static website generator.
 
-## Local run
+## Installation
 
-Running Docusaurus locally is very simple, just follow these steps:
-- Make sure `node` version is 14 or higher, using `node -v` ; you can use [nvm](https://github.com/nvm-sh/nvm) to install different node versions in your system.
-- `cd website ; npm install ; npm run start`
+```console
+npm install
+```
 
-The command should open your browser and point to `http://localhost:3000`.
+## Local Development
+
+```console
+npm start
+```
+
+This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+
+## Build
+
+```console
+npm run build
+```
+
+This command generates static content into the `build` directory and can be served using any static contents hosting service.
 
 ## Deployment
 
-[Netlify] (https://www.netlify.com/) is the default way to serve FINOS websites publicly. Find docs [here] (https://docs.netlify.com/configure-builds/get-started/).
+```console
+npm run deploy
+```
 
-You can configure Netlify using your own GitHub account, pointing to a personal repository (or fork); when adding a new site, please use the following configuration:
-- Woeking directory: `website`
-- Build command: `yarn build`
-- Build directory: `website/build`
+This command builds the website and pushes it to the `gh-pages` branch, which is then deployed to GitHub Pages.
 
-If you want to serve your website through `https://<project_name>.finos.org`, please email [help@finos.org](mailto:help@finos.org). To check a preview, visit https://project-blueprint.finos.org .
+## Upgrading Docusaurus
+
+This website has been upgraded to Docusaurus v3. If you need to upgrade to a newer version in the future, follow these steps:
+
+1. Update the Docusaurus dependencies in `package.json`
+2. Run `npm install` to install the updated dependencies
+3. Make any necessary changes to the configuration files
+4. Test the website locally with `npm start`
+5. Deploy the updated website with `npm run deploy`

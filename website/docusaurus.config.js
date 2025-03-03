@@ -1,4 +1,4 @@
-// Docs at https://v2.docusaurus.io/docs/configuration
+// Docs at https://docusaurus.io/docs/configuration
 
 
 // Replace 'project-blueprint' with {project name}
@@ -8,6 +8,7 @@ const projectSlug = 'devops-automation'
 // Replace 'FINOS' with {name of copyright owner}
 const copyrightOwner = 'FINOS'
 
+/** @type {import('@docusaurus/types').Config} */
 module.exports = {
   title: `FINOS ${projectName}`,
   tagline: `Special Interest Group`,
@@ -38,7 +39,7 @@ module.exports = {
       ],
     },
     footer: {
-      copyright: `Copyright © ${new Date().getFullYear()} ${projectName} - ${copyrightOwner}`,
+      copyright: `Copyright ${new Date().getFullYear()} ${projectName} - ${copyrightOwner}`,
       logo: {
         alt: 'FINOS Logo',
         src: 'img/favicon/favicon-finos.ico',
@@ -102,6 +103,9 @@ module.exports = {
       defaultMode: 'light',
       disableSwitch: true,
       respectPrefersColorScheme: false
+    },
+    prism: {
+      theme: require('prism-react-renderer').themes.github,
     }
   },
   presets: [
