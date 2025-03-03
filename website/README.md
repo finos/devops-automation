@@ -1,6 +1,12 @@
 # FINOS DevOps Automation Website
 
-This website is built using [Docusaurus 3](https://docusaurus.io/), a modern static website generator.
+This website is built using [Docusaurus 3.7.0](https://docusaurus.io/), a modern static website generator.
+
+In order to start working with Docusaurus, please read the [Getting Started guide](https://docusaurus.io/docs/installation) and browse through the following folders and files:
+- `website` - contains the Node/React code to build the website
+- `website/docusaurus.config.js` - contains the Docusaurus configuration; you'll need to edit this file.
+- `website/static` - contains images, PDF and other static assets used in the website; if you add a `file.pdf` in this folder, it will be served as `https://<your_host>/file.pdf`.
+- `docs` - contains the `.md` and `.mdx` files that are served as `https://<your_host>/<file_id>` ; the `file_id` is defined at the top of the file.
 
 ## Installation
 
@@ -11,7 +17,7 @@ npm install
 ## Local Development
 
 ```console
-npm start
+npm run start
 ```
 
 This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
@@ -26,18 +32,12 @@ This command generates static content into the `build` directory and can be serv
 
 ## Deployment
 
-```console
-npm run deploy
-```
+[Netlify] (https://www.netlify.com/) is the default way to serve FINOS websites publicly. Find docs [here] (https://docs.netlify.com/configure-builds/get-started/).
 
-This command builds the website and pushes it to the `gh-pages` branch, which is then deployed to GitHub Pages.
+You can configure Netlify using your own GitHub account, pointing to a personal repository (or fork); when adding a new site, please use the following configuration:
+- Working directory: `website`
+- Build command: `npm run build`
+- Build directory: `website/build`
 
-## Upgrading Docusaurus
+If you want to serve your website through `https://<project_name>.finos.org`, please email [help@finos.org](mailto:help@finos.org). To check a preview, visit https://project-blueprint.finos.org .
 
-This website has been upgraded to Docusaurus v3. If you need to upgrade to a newer version in the future, follow these steps:
-
-1. Update the Docusaurus dependencies in `package.json`
-2. Run `npm install` to install the updated dependencies
-3. Make any necessary changes to the configuration files
-4. Test the website locally with `npm start`
-5. Deploy the updated website with `npm run deploy`

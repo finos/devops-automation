@@ -1,6 +1,5 @@
 // Docs at https://docusaurus.io/docs/configuration
 
-
 // Replace 'project-blueprint' with {project name}
 const projectName = 'DevOps Automation'
 // Replace 'project-blueprint' with {project name}
@@ -9,7 +8,7 @@ const projectSlug = 'devops-automation'
 const copyrightOwner = 'FINOS'
 
 /** @type {import('@docusaurus/types').Config} */
-module.exports = {
+const config = {
   title: `FINOS ${projectName}`,
   tagline: `Special Interest Group`,
   url: 'https://devops.finos.org',
@@ -22,6 +21,8 @@ module.exports = {
   },
   scripts: ['https://buttons.github.io/buttons.js'],
   stylesheets: ['https://fonts.googleapis.com/css?family=Overpass:400,400i,700'],
+  
+  /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
   themeConfig: {
     navbar: {
       logo: {
@@ -124,3 +125,5 @@ module.exports = {
     ]
   ]
 };
+
+module.exports = config;
