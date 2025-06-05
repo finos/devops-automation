@@ -116,7 +116,7 @@ const config = {
         docs: {
           path: '../docs',
           editUrl:
-            'https://github.com/finos/devops-automation/edit/master/website/',
+            'https://github.com/finos/devops-automation/edit/main/website/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
