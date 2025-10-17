@@ -4,14 +4,14 @@ export const featuresTwo = [
   {
     title: (
       <>
-        <a href="docs/working-groups/acm">Automated Change Management</a>
+        <a href="docs/working-groups/sdlc">SDLC Controls Framework</a>
       </>
     ),
     description: (
       <>
-        Drive continuous compliance and assurance of software changes within the
-        Finance Industry through automated change management and associated
-        practices
+        Establishing a shared, open reference library for software governance
+        controls within the financial services industry to reduce duplication,
+        enable collaboration, and standardize SDLC practices
       </>
     ),
   },
