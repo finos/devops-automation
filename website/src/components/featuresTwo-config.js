@@ -18,19 +18,6 @@ export const featuresTwo = [
   {
     title: (
       <>
-        <a href="docs/working-groups/backstage">Backstage</a>
-      </>
-    ),
-    description: (
-      <>
-        Driving adoption of the open platform for developer portals and building
-        integrations crucial for the FinTech industry.
-      </>
-    ),
-  },
-  {
-    title: (
-      <>
         <a href="docs/working-groups/eas">Evolution @ Scale</a>
       </>
     ),
