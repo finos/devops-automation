@@ -4,8 +4,8 @@ This file lists the maintainers of this repository.
 
 ## Current maintainers
 
-| GitHub Username | Name | Organization | Email |
-|----------------|------|--------------|-------|
+| GitHub Username | Name | Organization | Email (optional) |
+|----------------|------|--------------|------------------|
 | @aaronsearle | *please add name* | *please add organization* |  |
 | @ashukla13 | *please add name* | *please add organization* |  |
 | @cnygardtw | *please add name* | @thoughtworks |  |
